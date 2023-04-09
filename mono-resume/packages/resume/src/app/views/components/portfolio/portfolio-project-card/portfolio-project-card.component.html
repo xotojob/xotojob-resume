@@ -1,0 +1,22 @@
+<div class="project-cards row isotope" >
+	<div class="isotope-item col-md-6 mb-5 {{linkType(card)}}"  *ngFor="let card of currentTab == 'all' ? portfolioData?.card : portfoliosList">
+		<div class="card project-card" [@slideInAnimation]>
+			<div class="row no-gutters">
+				<div class="card-img-holder">
+					<img :src="{{card.img}}" class="card-img" alt="image">
+				</div>
+				<div class="col-lg-8">
+					<div class="card-body">
+						<h5 class="card-title"><a  :href="{{card.button.link}}" class="theme-link">{{card.title}}</a></h5>
+						<p class="card-text">{{card.subtitle}}</p>
+						<p class="card-text"><small class="text-muted">{{card.value}}</small></p>
+						<p class="card-text"><small class="text-muted">{{card.date}}</small></p>
+					</div>
+				</div>
+			</div>
+			<div class="link-mask">
+				<div class="link-mask-text"><a  class="btn btn-secondary" :href="{{card.button.link}}"> <i class="fas fa-eye mr-2"></i>{{card.button.title}}</a></div>
+			</div>
+		</div>
+	</div>
+</div>

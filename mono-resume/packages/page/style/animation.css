@@ -1,0 +1,202 @@
+@keyframes increase {
+  30% {
+    width: 0%
+  }
+
+  100% {
+    width: 20%
+  }
+}
+
+@-webkit-keyframes slide-right {
+  from {
+    margin-left: 120%
+  }
+
+  to {
+    margin-left: -50%
+  }
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    top: 150%;
+    display: visible
+  }
+
+  15% {
+    top: 20%;
+    display: visible
+  }
+
+  85% {
+    top: 20%;
+    display: visible
+  }
+
+  100% {
+    top: 150%;
+    display: visible
+  }
+}
+
+@keyframes float-in-up {
+  0% {
+    opacity: 0;
+    transform: translate(0, 15px);
+    -ms-transform: translate(0, 15px);
+    -o-transform: translate(0, 15px)
+  }
+
+  30% {
+    opacity: .7
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0)
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+    -ms-transform: translate3d(-90px, 0, 0);
+    -o-transform: translate3d(-90px, 0, 0)
+  }
+
+  100% {
+    transform: translate3d(80px, 0, 0)
+  }
+}
+
+.float-up {
+  animation: mover .6s normal forwards ease-out
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0)
+  }
+
+  100% {
+    transform: translateY(-64px);
+    -ms-transform: translateY(-64px);
+    -o-transform: translateY(-64px)
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(.5);
+    opacity: .2;
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5)
+  }
+
+  100% {
+    transform: scale(2.6);
+    -ms-transform: scale(3);
+    -o-transform: scale(3);
+    opacity: .8
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1
+  }
+
+  20% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  70% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+.yeti-right {
+  opacity: 1;
+  animation-name: slide-right;
+  animation-duration: 43s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite
+}
+
+.float-in-up {
+  animation-name: float-in-up;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out
+}
+
+.fadein {
+  animation-name: fadein;
+  animation-duration: .7s;
+  animation-timing-function: ease-in-out
+}
+
+.animated-underline {
+  animation-fill-mode: forwards
+}
+
+.parallax>use {
+  animation: move-forever 20s cubic-bezier(.55, .5, .45, .5) infinite
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 12s
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 7s
+}
+
+.pulse-animation {
+  animation: pulse-animation .6s normal forwards ease-out
+}
+
+.cursor-c {
+  font-size: 19px;
+  margin-left: 3px;
+  margin-top: -1.2px;
+  position: absolute;
+  width: 7px;
+  color: var(--main-lighter);
+  opacity: 0;
+  animation: blink 2s;
+}

@@ -1,0 +1,124 @@
+.page>* {
+  transition-duration: .5s;
+  transition-property: opacity;
+  opacity: 0
+}
+.page {
+  z-index: 0;
+  padding: 16px;
+  width: 8.5in;
+  height: 11in;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+  background-color: #fff;
+  margin-top: 20px;
+  overflow: hidden
+}
+.page.loaded>* {
+  opacity: 1
+}
+.page:first-child {
+  margin-top: 0
+}
+.page-footer {
+  justify-content: center;
+  position: absolute;
+  margin-bottom: 5px;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  display: inline-flex;
+  width: 100%
+}
+.sub-header {
+  text-align: right
+}
+.section>.header {
+  border-bottom: .28em solid var(--main-lighter);
+  margin-bottom: 10px;
+  margin-top: 10px
+}
+.skill .sub-section .header {
+  margin-top: 6px;
+  margin-bottom: 1px;
+  padding-bottom: 0
+}
+.right-top-header {
+  float: right;
+  display: inline;
+  margin-bottom: 0;
+  margin-top: -24px
+}
+.right-top-header h1 {
+  margin-bottom: -26px;
+  font-size: 23px
+}
+.proficiency-header {
+  text-transform: uppercase;
+  font-family: var(--headings-font);
+  font-size: .6em;
+  float: right;
+  margin-top: 9px
+}
+.sub-section {
+  width: 487px;
+  font-size: 12p;
+  font-family: 'Titillium Web'
+}
+.results {
+  margin: 3px 13px;
+  display: grid;
+  flex-wrap: wrap;
+  line-height: 14px;
+  font-family: var(--primary-font);
+}
+.results-grid {
+    margin: 3px 13px;
+    display: grid;
+    flex-wrap: wrap;
+    line-height: 14px;
+    font-family: var(--primary-font);
+    grid-template-columns: 176px 150px 152px;
+}
+.proficiency-level {
+  background-color: #fff;
+  display: inline;
+  border: 1px solid var(--main-lighter);
+  border-radius: 500em;
+  float: right;
+  height: 6px;
+  width: 48px;
+  position: relative;
+  padding: 1px;
+  margin-top: 3px;
+}
+.proficiency-bar {
+  float: left;
+  background-color: var(--main-lighter);
+  height: 6px;
+  border-radius: 500em;
+  position: relative;
+}
+.tag {
+  font-family: var(--primary-font);
+  line-height: 1.4em;
+  padding: 2px 6px;
+  font-size: 9px;
+  margin-top: 5px;
+  display: inline-block;
+  border: .8px solid var(--main-lighter);
+  border-radius: 500em;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.tag:hover {
+  background-color: var(--main-lighter);
+  transition: background-color .2s linear;
+  cursor: pointer;
+}
+span.close.icon {
+  transform: rotateZ(45deg) !important;
+}
+.icon-wrap{margin-top:-1px}
+.fab{margin-top:4px}

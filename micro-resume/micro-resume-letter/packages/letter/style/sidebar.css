@@ -1,0 +1,228 @@
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0);
+  top: -13px;
+  height: 1454px;
+  width: 682px;
+  position: absolute;
+  margin: 0;
+  left: 87px;
+  transform: rotate(0)
+}
+
+.sidebar .sidebar-cape {
+  background-color: rgba(255, 255, 255, 0);
+  top: 40px;
+  height: 1245px;
+  width: 604px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0);
+  opacity: .45
+}
+
+.sidebar .logo {
+  background-color: rgba(255, 255, 255, 0);
+  top: 126px;
+  height: 438px;
+  width: 467px;
+  position: absolute;
+  margin: 0;
+  left: 65px;
+  transform: rotate(0)
+}
+
+.sidebar .logo .circle {
+  background-color: rgba(255, 255, 255, 0);
+  top: 12px;
+  height: 413px;
+  width: 417px;
+  position: absolute;
+  margin: 0;
+  left: 29px;
+  transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0)
+}
+
+.sidebar .logo .circle-title {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 427px;
+  position: absolute;
+  top: 80px;
+  cursor: pointer;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0);
+  font-family: HelveticaNeue, Helvetica, Arial, serif;
+  font-size: 193px;
+  color: rgba(39, 42, 51, 1);
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  letter-spacing: -5.24px;
+  line-height: 276px
+}
+
+.sidebar .social {
+  background-color: rgba(255, 255, 255, 0);
+  top: 690px;
+  height: 510px;
+  width: 632px;
+  position: absolute;
+  margin: 0;
+  left: 103px;
+  transform: rotate(0)
+}
+
+.sidebar .social .phone-data {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 68px;
+  width: 408px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0)
+}
+
+.sidebar .social .phone-data .phone-number {
+  background-color: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: auto;
+  width: 305px;
+  position: absolute;
+  margin: 0;
+  left: 105px;
+  transform: rotate(0);
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 31px;
+  color: rgba(65, 66, 67, 1);
+  text-align: left;
+  line-height: 50px
+}
+
+.sidebar .social .phone-data .phone-icon {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 67px;
+  width: 68px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  transform: rotate(0)
+}
+
+.sidebar .social .github-data {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: 81px;
+  width: 411px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0)
+}
+
+.sidebar .social .github-data .github-username {
+  background-color: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 113px;
+  transform: rotate(0);
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 31px;
+  color: rgba(50, 57, 61, 1);
+  text-align: left;
+  line-height: 41px
+}
+
+.sidebar .social .github-data .github-suffix {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: 200px;
+  position: absolute;
+  margin: 0;
+  left: 113px;
+  transform: rotate(0);
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 33px;
+  color: rgba(148, 151, 154, 1);
+  text-align: left;
+  line-height: 38px
+}
+
+.sidebar .social .github-data .github-suffix .span-2 {
+  color: rgba(173, 175, 178, 1)
+}
+
+.sidebar .social .github-data .github-icon {
+  background-color: rgba(255, 255, 255, 0);
+  top: 7px;
+  height: 74px;
+  width: 74px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  transform: rotate(0)
+}
+
+.sidebar .social .email-data {
+  background-color: rgba(255, 255, 255, 0);
+  top: 206px;
+  height: 86px;
+  width: 405px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  transform: rotate(0)
+}
+
+.sidebar .social .email-data .email-username {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 116px;
+  transform: rotate(0);
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 31px;
+  color: rgba(50, 57, 61, 1);
+  text-align: left;
+  line-height: 41px
+}
+
+.sidebar .social .email-data .email-suffix {
+  background-color: rgba(255, 255, 255, 0);
+  top: 47px;
+  height: auto;
+  width: 278px;
+  position: absolute;
+  margin: 0;
+  left: 116px;
+  transform: rotate(0);
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 33px;
+  color: rgba(148, 151, 154, 1);
+  text-align: left;
+  line-height: 38px
+}
+
+.sidebar .social .email-data .email-icon {
+  background-color: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: 71px;
+  width: 72px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0)
+}

@@ -1,0 +1,27 @@
+.grid {
+  z-index: 1;
+  background: 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.centered-column {
+  text-align: center;
+  width: 100%
+}
+
+.inline {
+  display: inline
+}
+
+.inline-header {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: -2px
+}
+
+div.column {
+  margin: 0 4px
+}

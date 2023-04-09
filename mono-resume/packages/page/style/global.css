@@ -1,0 +1,107 @@
+ul {
+  padding: 0;
+  margin: 3px;
+  list-style: none
+}
+
+/* 
+ul li.edu-list::before {
+  color: #000000d0;
+  font-weight: 700;
+  display: inline-block;
+  width: .8em;
+  margin-left: -2em
+} 
+*/
+html {
+  scroll-behavior: smooth !important
+}
+
+a:-webkit-any-link {
+  cursor: text
+}
+
+body {
+  margin-top: 12px;
+  background-color: #f5f5f5;
+  font-size: 10.1px
+}
+
+body.noscroll {
+  overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+  font-family: var(--headings-font)
+}
+
+h1 {
+  font-size: 1.76em;
+  font-family: var(--headings-font);
+  font-weight: 800;
+  text-align: right
+}
+
+h3.header {
+  font-size: 18px;
+  margin-bottom: -3px;
+  margin-top: 5px
+}
+
+/* h6.header.keyfeat {
+  margin-top: -3px
+} */
+
+h5.header {
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top: 7px
+}
+
+h6 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: var(--headings-font);
+  margin-top: 4.5px;
+  font-size: 9.5px;
+  margin-bottom: 3px
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 0;
+  line-height: 14px
+}
+
+a span,
+p {
+  font-family: var(--primary-font);
+  line-height: 15px
+}
+
+hr {
+  border-width: .5px;
+  margin-top: 10px;
+  border: 3px solid var(--main-lighter)
+}
+
+a.no-decorate {
+  text-decoration: none;
+  color: #000
+}
+
+a.no-decorate:hover {
+  cursor: pointer;
+  backface-visibility: hidden;
+  position: relative;
+  transition: .2s color ease;
+  text-decoration: none;
+  color: var(--main-color);
+  -ms-transition: .2s color ease;
+  -o-transition: .2s color ease;
+}

@@ -1,0 +1,277 @@
+{
+ "resume": {
+	"objectiveIsDefined": true,
+	"profileIsDefined": false,
+	"version": "2.3.0",
+	"username": "gregcousin126",
+	"email": "gregcousin126@gmail.com",
+	"resumename": "gc_resume_fr",
+	"title": "gc_resume_fr",
+	"initials": "GC",
+	"applicant": "Grégoire Cousin",
+	"role": "Web Développeur",
+	"company": "Apple",
+	"scroll": ["apps", "games", "motion", "web!"],
+	"phone": { "prefix": "+33", "number": ".625859351" },
+	"urls": { "website": "xotopio.com", "facebook": "www.facebook.com/gregcousin126", "twitter": "twitter.com/gregcousin126", "github": "github.com/gregcousin126", "linkedin": "linkedin.com/gregcousin126" },
+	"imgAvatar": "assets/images/development/profile.png",
+	"status": { "job": "Web Développeur" },
+	"contact": {
+		"title": "Gregoire Cousin",
+		"email": "gregcousin126@gmail.com",
+		"phone": "+33625859351",
+		"links": [
+			{ "value": "skype", "link": "live:gregcousin126" },
+			{ "value": "whatsapp", "link": "+33625859351" },
+			{ "value": "email", "link": "gregcousin126@gmail.com" },
+			{ "value": "phone", "link": "+33625859351" },
+			{ "value": "web", "link": "gregcousin.com" }
+		]
+	},
+	"location": { "country": "france" },
+	"hobbies": ["Hobbyist", "Programmer", "Dreamer", "JavaScript", "TypeScript"],
+	"links": [
+		{ "value": "twitter", "link": "https://twitter.com/gregcousin126" },
+		{ "value": "linkedin", "link": "https://www.linkedin.com/in/gregcousin126/" },
+		{ "value": "github", "link": "https://github.com/gregcousin126" },
+		{ "value": "stack-overflow", "link": "https://stackoverflow.com/users/8848159/gregoire-cousin" },
+		{ "value": "codepen", "link": "https://codepen.io/gregcousin126" }
+	],
+	"objective": "Ayant une expérience professionnelle franco-américaine en tant qu’ancien salarié chez Apple, Web Développeur chez Onepoint puis auto entrepreneur en France, je souhaiterais participer durablement au développement d’une entreprise française à forte valeur ajoutée technologique. Vous trouverez ci-après ma candidature en tant que Developpeur Web",
+	"profile": "Diplômé en 2012 a l’université de Full Sail aux Etats Unis, j’ai par la suite travaillé pour plusieurs studios d'enregistrement mondialement connus à Los Angeles, puis ai eu la chance de travailler chez Apple pendant deux années. Plus récemment, j’ai souhaité renforcer mes compétences en acquérant un master en informatique à l’université UCD de Dublin. S’inscrire dans une logique de progrès permanent est essentiel pour moi. Grâce à une telle expérience, je suis à même de m’intégrer facilement dans une équipe créative, multidisciplinaire, orientée vers des objectifs à court et moyen terme",
+	"academic": {
+		"title": "Academic",
+		"tags": {"modules": "modules", "in": "in"},
+		"primaryEducations": 3,
+		"educations": [
+				{
+					"type": "BTS",
+					"subject": "Enregistrement",
+					"school": "Full Sail University",
+					"date": "2012",
+					"location" :"Orlando, Floride, USA",
+					"subjects": "Matières suivies: add advanced audio recording, audio workstation, microphone theory, vocal production, audiotronics & electricity, digital mastering, game sound programming, audio plugins, audio consoles/controllers, video production, internet protocols, music theory",
+					"summary": "Une université axée sur la formation des ingénieurs en technologies audio en devenir",
+					"modules": [ "advanced audio recording", "audio workstation", "microphone theory", "vocal production", "audiotronics & electricity", "digital mastering", "game sound programming", "audio plugins", "consoles/controllers", "video production", "internet protocols", "music theory" ]
+				},
+				{
+					"type": "Hdip",
+					"subject": "Développement de logiciels",
+					"school": "Maynooth University",
+					"date": "2018",
+					"location": "Celbridge, Irlande",
+					"subjects": "Matières suivies: algorithm data structures, object-oriented programming, software design, mobile development, computer systems, web information processing, database, user experience/user interface, software testing, software projects, structured programming",
+					"summary": "Introduction technique, méthodologique et organisationnelle au développement logiciel",
+					"modules" : ["object programming",  "mobile development", "computer systems", "web information processing", "database", "UX & UI", "software testing", "software projects", "structured programming"]
+				},
+				{
+					"type": "MSC",
+					"subject": "Computer Science",
+					"school": "University College Dublin",
+					"date": "2019",
+					"location": "Dublin, Irlande",
+					"subjects": "Matières suivies: security system, python data programming, cloud computing, user centered design/user experience user interface (ux, ui), ruby, distributed systems, mobile app dev cocoa touch, big data programming, recommender systems collective intelligence, contemporary development, introduction to information security",
+					"summary": "Emploi d'une base solide pour analyser les problèmes et fournir des solutions adéquates",
+					"modules" :["algorithm data structures", "security system", "python data programming", "cloud computing", "ruby", "distributed systems", "mobile app dev cocoa touch", "big data programming", "recommender systems", "contemporary development", "information security", "software design"]
+				}
+			]
+		},
+		"award": {"title": "Honor Awards", "dataset": [{"title": "1st Position Winner", "value": "Writing Competition", "date": "(2010)"}]},
+		"certificate": {"title": "Cerficates", "dataset": [{"title": "HTML5 and CSS 3", "value": "Udemy", "date": "(Oct. 2019)", "img": "assets/images/development/courses_cert/img1-min.jpg"}]},
+		"cta": {"tags": {"onlineResume": "Online Resume"}, "download": {"button": {"title": "Download PDF Version", "link": "https://xotopio.com:4040/" }}},
+		"header": {"title": ""},
+		"hobbie": {"title": "Interests", "hobbies": ["Programming 🧑🏽‍💻", "Football ⚽️", "Listening 👂🏻", "Travelling ✈️"]},
+		"intro": {
+			"img": "assets/images/development/profile-sm.png",
+			"title": "Diplômé en 2012 a l’université de Full Sail aux Etats Unis, j’ai par la suite travaillé pour plusieurs studios d'enregistrement mondialement connus à Los Angeles, puis ai eu la chance de travailler chez Apple pendant deux années. Plus récemment, j’ai souhaité renforcer mes compétences en acquérant un master en informatique à l’université UCD de Dublin. S’inscrire dans une logique de progrès permanent est essentiel pour moi. Grâce à une telle expérience, je suis à même de m’intégrer facilement dans une équipe créative, multidisciplinaire, orientée vers des objectifs à court et moyen terme"
+		},
+		"language": {"title": "Languages", "dataset": [{"title": "English 🇺🇸", "value": "(Professional)"}, {"title": "French 🇫🇷", "value": "(Native)"}, {"title": "Spanish 🇪🇸", "value": "(Conversational)"}]},
+		"project": {
+		"link": {"button": {"title": "Here"}},
+		"title": "Projects",
+		"primaryProjects": 5,
+		"projects": [
+				{
+					"title":"Xotosphère.com",
+					"type": "Privé",
+					"category": "E-COM",
+					"url": "https://xotopio.com/",
+					"description":"Équipe d'ingénieurs et d'artistes 3D utilisant des plateformes agiles permettant le travail d'équipe. Ce projet a été pensé comme une nouvelle plateforme, la fusion des réseaux sociaux et du secteur commercial pour soutenir les artisans locaux",
+					"features": ["Technologies de compression d'image 3D", "Lerna Monorepo", "Base de données Mongo", "Déploiement bleu-vert "],
+					"technologies": ["VUE 🥽", "Typescript 🔥", "SSH ✅", "FullStack 📦", "Gitlab-runner 🏃🏽‍♂️", "Docker 📃"]
+				},
+				{
+					"title": "Xotopio.com",
+					"category": "Site Web personnel",
+					"url": "https://xotopio.com:5000",
+					"description": "Site Web arborant un thème néon regroupant mes projets, mon expérience professionnelle et mes qualifications",
+					"features": ["Animation optimisée", "Cartes 3D, profondeurs de police et manipulation des couleurs", "Une machine à écrire tape mon CV", "certaines zones du site cachent des secrets qui apparaissent en cliquant dessus ou en les survolant" ],
+					"technologies": ["DigitalOcean 🤿", "JS 🖥", "Jquery 🐣", "Waypoints 👆", "Animation 🔂", "Lazyloading 🛋"]
+				},
+				{
+					"title": "Xotopolo.com",
+					"category": "Magasin de vêtements",
+					"url": "BIENTÔT DISPONIBLE",
+					"description": "Un magasin qui rassemble tout ce dont vous avez besoin : vêtements, accessoires.",
+					"features": ["CSS Grid with a beautiful card layout to showcase the merchandise", "Paiement sécurisé Paypal, Visa et Stripe" ],
+					"technologies": ["Vuejs 💪", "DigitalOcean 🤿", "Mutators 🧬", "Babel 🔥", "Express 💾", "Lazyload 🛋", "Firebase 💿"]
+				},
+				{
+					"title": "Thème Dark & Light",
+					"category": "VSCode Thème",
+					"url": "https://marketplace.visualstudio.com/items?itemName=xotopio.xotopio-dark",
+					"description": "Afin de faciliter et structurer mon codage informatique, j’ai mis au point deux thèmes (un thème aux couleurs néon et un thème aux couleurs pastel pour vscode)",
+					"features": ["Couleurs néon", "Couleurs pastel" ],
+					"technologies": ["Json 🕸", "VSCode Syntax 💻", "Devtools 🛠", "Vsce 👾"]
+				},
+				{
+					"title": "Cv-Gen",
+					"category": "Outil de gestion de CV",
+					"url": "BIENTÔT DISPONIBLE",
+					"description": "Un outil qui génère vos CV personnalisés pour décrocher le job idéal. Le CV de données que vous regardez a été généré avec ce même outil",
+					"features": ["Utilise un fichier de données pour remplir un modèle", "Tout ce que je pourrais vouloir changer est un paramètre dans ce fichier de données" ],
+					"technologies": ["Angular 💪", "HTML 📄", "CSS 🎨", "NodeJS 🔥", "NPM 🏃🏻‍♀️", "Puppeteer 😅", "Font-Awesome 💟"]
+				},
+				{
+					"title": "LBC Quick Glance",
+					"category": "Aperçu rapide de l'image LBC",
+					"url": "https://github.com/gregcousin126",
+					"description": "Un outil qui me permet de rechercher les dernieres annonces sur le site populaire français Le Bon Coin",
+					"features": ["Un API pour extraire des informations du site Le Bon Coin", "Stocke toutes les données dans des fichiers JSON séparés" ],
+					"technologies": ["Vue.js 💪", "Inquirer 📣", "Webpack 📦", "NodeJS 🛠", "NPM 🏃🏽‍♂️", "Middlewares 🖖", "Logs 🔖"]
+				},
+				{
+					"title": "Predicted Text",
+					"category": "Simulation de clavier de téléphone",
+					"url": "https://github.com/gregcousin126/university.college.dublin/blob/master/ucd.algorithm.advanced.structures/alg.ad.partb/alg.ad.phone.game/alg.ad.phone.game.pdf",
+					"description": "Un dictionnaire est utilisé par le système pour «prédire» laquelle des lettres du clavier l'utilisateur s'apprêter réellement à utiliser",
+					"features": ["Implémentation d'un composant dictionnaire", "L'utilisation de nodes et de trees" ],
+					"technologies": ["Dictionaries 📜", "Java 👔", "Buffers 📊", "Streams 🚃", "FileReaders 📖", "Lists ✅", "Trees 🌲"]
+				},
+				{
+					"title": "Connect4 IOS Bot",
+					"category": "AI Game",
+					"url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.ios.cocotouch/ios.student.projects/ios.projects.connect.4",
+					"description": "Une interface utilisateur dynamique pour le jeu Puissance 4 permettant aux utilisateurs de jouer contre un bot",
+					"features": ["Gestion de session", "Sélection de l'utilisateur, jeu et écran Historique" ],
+					"technologies": ["Swift 🍎", "AI Bot 🤖", "XCode 🆘", "Tables ⎍", "MVC ♻️"]
+				},
+				{
+					"title": "Tweeter Tags",
+					"category": "Application Twitter",
+					"url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.ios.cocotouch/ios.student.projects/ios.projects.tweetertags",
+					"description": "Application iOS qui permet aux utilisateurs de rechercher des tweets en utilisant des «hashtags» ou des «noms d'utilisateurs» comme mots clés",
+					"features": ["Écran d'historique contenant les 100 précédentes recherches de l'utilisateur", "Écran des tweets contenant la fil d'actualité des tweets" ],
+					"technologies": ["Swift 4 😋", "Xcode 📱", "Storyboard 📈", "History ⏳"]
+				},
+				{
+					"title": "Pythongraph",
+					"category": "Prévisions météorologiques locales",
+					"url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.python.data.analystics/python.assignments/python.assignment.pythongraph.1",
+					"description": "Une application qui collecte des ensembles de données à partir d'une API Web, prétraite et analyse les données collectées",
+					"features": ["Implémenté comme un seul bloc-notes Jupyter (pas un script)", "Collecte des données à partir d'une ou de plusieurs API à l'aide de Python", "Charge et affiche les données à l'aide d'une structure qui leur est appropriée" ],
+					"technologies": ["Graphs 📊", "Preparation 📖", "Jupyter 📕", "MD 📜", "Python 🐍", "Analysis 👀"]
+				},
+				{
+					"title": "Game Destroyer",
+					"category": "Jeu sous Unity avec moteur physique",
+					"url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.game.development/game.dev.game/game.assignment2",
+					"description": "Jeu de drone dont la mission est de protéger la piste d'un aéroport attaquée par des drones ennemis",
+					"features": ["implantation d'un système de gravité", "différents niveaux de difficulté et mécanismes d'IA", "contrôle des mouvements et les collisions" ],
+					"technologies": ["Unity assets 📚", "Mesh Design and Rendering ➰", "Textures 🍀", "Scripts 📃", "C# 🆘"]
+				}
+			]
+		},
+		"skill": {
+		"title": "Skills",
+		"primarySkills" : 10,
+		"secondarySkills" : 12,
+		"subtitle": "Technical",
+		"dataset": [
+			{ "title": "Java", "level": 3, "description": "Expérience en application d'ingénierie Web à l'aide de plusieurs structures web Java (Struts, Spring Boot)" },
+			{ "title": "Web Development", "level": 4, "description": "Haut niveau d'expérience sur les technologies de développement web, design web, les architectures d'applications (MVC), le design d'applications web évolutives et tolérantes aux erreurs et le déploiement et hébergement de sites Web sur les serveurs Linux" },
+			{ "title": "PHP", "level": 3, "description": "Bonne maitrise du language PHP acquise de maniere autodicacte et utilisée sur IMAIOS Web UI dans un contexte professionel" },
+			{ "title": "Node.js", "level": 2, "description": "Haut niveau d’expérience sur l'écriture d'applications Node en tant que sites Web autonomes et Electron Apps" },
+			{ "title": "JavaScript", "level": 3, "description": "Compétence en JavaScript sur les interfaces front-end et back-end, le DOM et la connaissance de l'environnement et des fonctions d'exécution JavaScript" },
+			{ "title": "RESTful API Design", "level": 3, "description": "Expérience intermédiaire en design et en développement RESTful API pour les applications et services Web" },
+			{ "title": "Software Testing", "level": 4, "description": "Bonne connaissance des meilleures méthodes de test, du développement piloté par test et du développement comportemental en utilisant Jest, Runscope, Ghost Inspector, JUnit, TestNG et Mocha" },
+			{ "title": "Frameworks", "level": 3, "description": "Expérience intermédiaire en design et développement d'applications Web avec Vue, React et Angular. Data cv utilise beaucoup Vue.js" },
+			{ "title": "Python", "level": 2.5, "description": "Compétence intermédiaire sur Python, ses concepts, ses meilleures usages, ses avantages et ses lacunes. Connaissance approfondie des libs disponibles et du PIP" },
+			{ "title": "AWS", "level": 2, "description": "Expérience en EC2, services et pipelines API Gateway. Expérience de conversion des solutions logicielles existantes en Amazon Machine Images" },
+			{ "title": "C/C++", "level": 1, "description": "Expérience autodidacte sur les structures de données, les scripts Unity (Unity Scripting) et le développement de bas niveau. Expérience intermédiaire en C++ et sur de nombreuses concepts linguistiques" },
+			{ "title": "Docker", "level": 3, "description": "Compétences intermédiaires sur Docker, Docker Compose avec une expérience de conteneurisation des applications existantes et la connaissance des avantages et des lacunes des conteneurs d'application, et des architectures de micro-service" },
+			{ "title": "Git", "level": 4, "description": "Expérience en utilisation de CLI Git, GitHub et GitLab pour collaborer avec une équipe et contrôler les versions logicielles" },
+			{ "title": "Postgres, MySQL & MongoDB", "level": 3, "description": "Connaissance intermédiaire de la syntaxe SQL, des dialogues et fonctionnalités. Bonne expérience sur PostgreSQL et MongoDB" },
+			{ "title": "UX & UI Design", "level": 4, "description": "Très bonne maitrise, motivation et une bonne intuition qui permettent de fournir la meilleure expérience utilisateur aux clients" },
+			{ "title": "Adobe Suite", "level": 5, "description": "Haute maitrise du développement de design marketing (logos, brochures, bulletins, infographies, présentations et publicités)" },
+			{ "title": "Code Review", "level": 3, "description": "Expérience refactoring des bases de code héritées des applications Web internes à haut volume améliorant considérablement la maintenabilité du code et réduisant son temps de déploiement" },
+			{ "title": "Agile", "level": 4, "description": "Haut niveau d’expérience d'évaluation des exigences du projet à l'aide des principes Agile et Scrum liés au service en ligne à haut volume" },
+			{ "title": "Ruby Rails", "level": 2, "description": "Compétences intermédiaires dans la construction de systèmes. Expérience avec Ruby Rails dans plusieurs modules a UCD. Création de projets : un lecteur audio iTunes" },
+			{ "title": "Bilingue", "level": 4, "description": "Bilingue en français et en anglais ayant vécu àu Colorado et a Seattle aux États-Unis, Dublin en Irlande et Paris en France" }
+			]
+		},
+		"social": {"title": ""},
+		"work": {
+			"tags": { "technologies": "Technologies"},
+			"title": "Work Experiences",
+			"primaryExperiances": 3,
+			"experiences": [
+				{
+					"company": "OnePoint",
+					"title": "Full Stack Web Développeur",
+					"from": "Août 2020",
+					"to": "Avril 2021",
+					"location": "Nantes FR",
+					"description": "Un programme de service d'appui à la transition énergétique adopté par l'ADEME financé par le gouvernement français",
+					"summary": "j’ai travaillé en agilité en équipe sur la plateforme Atlassien, des tests unitaires créés, UIS développés avec Angular, participé à l'architecture du logiciel",
+					"technologies": ["Spring Boot 🌿", "Typescript 👾", "Docker 🛶", "JAVA 👔", "Angular, NgRx & More 🏬", "Jest 🧪", "OWASP 🕸"],
+					"results": ["Méthode Agile : Atlassien", "Tests Unitaires créés", "Design system UIS développé avec Angular", "Participation à l'architecture du logiciel"]
+				},
+				{
+					"company": "Xotopio",
+					"title": "Développeur Auto-Entrepreneur",
+					"from": "Septembre 2019",
+					"to": "Aujourd'hui",
+					"location": "Nantes, FR",
+					"description": "J’ai travaillé, en tant qu'auto-entrepreneur",
+					"summary": "",
+					"results": ["CV-GEN : Un outil qui génère vos CV personnalisés pour décrocher le job idéal", "XOTOPOLO : un magasin qui rassemble tout ce dont vous avez besoin : vêtements, accessoires.", "XOTOSPHÈRE : Fusion des réseaux sociaux et du secteur commercial pour soutenir les artisans locaux" ] ,
+					"technologies": ["NodeJS 🔥", "EJS 🕸", "WebSockets 🚃", "PHP 🤓", "UnitTesting 👨🏼‍🔬", "lighthouse 🚨"]
+				},
+				{
+					"company": "Imaios",
+					"title": "Développeur Web",
+					"from": "Juin 2019",
+					"to": "Septembre 2019",
+					"location": "Montpellier, FR",
+					"description": "Une entreprise innovante dans le domaine de l'imagerie médicale et du e-learning",
+					"summary": "Support à la migration de données, au design, à la conversion de documents et aux applications de flux multimédia. Création de modules de test pour faciliter le traitement du déploiement du pipeline AWS. Combinaison de Runscope, Ghost Inspector et Google Lighthouse pour produire des rapports détaillé",
+					"results": ["Création de modules de test pour faciliter le traitement du déploiement du pipeline AWS", "Support à la migration de données, à la conception et aux applications de flux multimédia", "Combinaison Runscope, Ghost Inspector et Google Lighthouse pour produire des rapports détaillés"],
+					"technologies": ["IOS 📱", "OSX 🍏", "Diagnostics 👀", "Team Management 🧑🏻‍🏫"]
+				},
+				{
+					"company": "Apple store",
+					"title": "Technicien IOS et OSX",
+					"from": "Juillet 2014",
+					"to": "Février 2017",
+					"location": "Shoreline, WA",
+					"description": "Une société innovatrice ayant pour but d'améliorer la vie quotidienne grâce à sa technologie",
+					"summary": "Établissement d'expériences de communication fructueuses avec les marques les plus reconnues au monde. Vente: 1,5M$ de produits utilisant des techniques de vente pour transformer les clients en promoteurs. Animation des ateliers de formation sur les produits et les ateliers de maintenance et dépannage grâce à mes compétences en communication . Travail d’équipe avec les autres membres pour faire face aux interactions difficiles et aux plaintes",
+					"results": ["Utilisation de techniques de vente pour transformer les clients en promoteurs", "Développement d'expériences de communication efficaces avec des marques reconnues", "Travail d’équipe avec les autres membres pour faire face aux interactions difficiles et aux plaintes", "Animation d'ateliers de formation sur les produits et d'ateliers de maintenance et dépannage"],
+					"technologies": ["Analog 🎙", "DAWs 💻", "AU Plugins 🔌"]
+				},
+				{
+					"company": "Robert Lang Studios",
+					"title": "Ingénieur du Son, Instructeur et Directeur Adjoint",
+					"from": "Mars 2013",
+					"to": "Février 2017",
+					"location": "Shoreline, WA",
+					"description": "Un studio d'enregistrement de renommée mondiale sur Seattle",
+					"summary": "Edition, mixage et masterisation des pistes audio pour les clients utilisant l'équipement et la nouvelles techniques de l'industrie. Assistant pour les grands ingénieurs et producteurs. Enseignement et explication les normes de l'industrie par le biais de cours de niveau soutenu aux étudiants. Responsable de la planification d'un bon flux d'affaires du studio et de la gestion des stages",
+					"results": ["Assistant pour les grands ingénieurs et producteurs de musique", "Edition, mixage et masterisation des pistes audio pour les clients", "Enseignement et explication les normes de l'industrie par des cours de niveau avancé aux étudiants", "Responsable de la planification d'un bon flux d'affaires du studio et de la gestion des stages"],
+					"technologies": ["Outboard 🎛", "Microphones 🎤", "Routing 🕸"]
+				}
+			]
+		}
+	}
+}

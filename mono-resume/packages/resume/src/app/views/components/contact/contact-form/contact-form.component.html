@@ -1,0 +1,55 @@
+<form [formGroup]="contactForm" class='contact-form col-lg-8 mx-lg-auto'>
+	<h3 class="text-center mb-3">{{contactData?.form.tags.inTouch}}</h3>
+	<!-- form-row -->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+			<label class="sr-only" for="name">{{contactData?.form.tags.name}}</label>
+			<input type="text" formControlName="name" class="form-control"
+				placeholder="{{contactData?.form.sectionset.name.button.placeholder}}" minlength="2" required=""
+				aria-required="true">
+				<span style="color: red;" *ngIf="contactForm?.controls.name.touched && contactForm?.controls.name.invalid">*Name is required</span>
+		</div>
+		<div class="form-group col-md-6">
+			<label class="sr-only" for="email">{{contactData?.form.tags.email}}</label>
+			<input type="email" class="form-control" id="email" formControlName="email"
+				placeholder="{{contactData?.form.sectionset.email.button.placeholder}}" required="" aria-required="true">
+				<span style="color: red;" *ngIf="contactForm?.controls.email.touched && contactForm?.controls.email.invalid">*Email is required</span>
+		</div>
+		<!-- SUBJECT TO FILL -->
+		<div class="form-group col-12" *ngIf="selectedModalData?.isCompany[0] === 'No'" >
+			<select  class="custom-select" formControlName="subject">
+				<option value="" [selected]="true">{{contactData?.form.subject.title}}</option>
+				<option *ngFor="let title of contactData?.form.subject.options" value="{{title.value}}">{{title.title}}
+				</option>
+			</select>
+		</div>
+		<!-- SUBJECT MATTER TO FILL -->
+<!-- {{contactForm?.value.subject | json}} -->
+		
+		<div class="form-group col-12" *ngIf="selectedModalData?.isCompany[0] === 'No' && contactForm?.value.subject !== 'Employment 🧳?'">
+			<select class="custom-select" formControlName="services">
+				<option value="" [selected]="true">{{contactData?.form.package.title}}</option>
+				<option :value="{{title.value}}" *ngFor="let title of contactData?.form.package.options">{{title.title}}
+				</option>
+			</select>
+			<small class="form-text text-muted pt-2">
+				<i class="fas fa-info-circle mr-2 text-primary"></i>
+				{{contactData?.form.services.title}}
+				<a routerLink="/{{RouteEnum.SERVICES}}" >{{contactData?.form.services.link}}</a>
+			</small>
+		</div>
+		<!-- TEXT AREA TO FILL -->
+		<div class="form-group col-12">
+			<label class="sr-only" for="cmessage">{{contactData?.form.sectionset.message.button.placeholder}}</label>
+			<textarea class="form-control" id="cmessage" formControlName="message"
+				placeholder="{{contactData?.form.sectionset.message.button.placeholder}}" rows="10" required=""
+				aria-required="true"></textarea>
+				<span style="color: red;" *ngIf="contactForm?.controls.message.touched && contactForm?.controls.message.invalid">*Message is required</span>
+		</div>
+		<!-- BUTTON -->
+		<div class="form-group col-12">
+			<button (click)="contactInformation()" class="btn btn-block btn-primary py-2">{{contactData?.form.sectionset.message.button.title}}</button>
+				<span *ngIf="isFormSubmitted" style="color: green;">Thanks for contacting us, we will reach you really soon.</span>
+		</div>
+	</div>
+</form>

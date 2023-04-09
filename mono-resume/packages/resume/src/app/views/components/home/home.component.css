@@ -1,0 +1,6 @@
+.section-do {
+display: inline-flex;
+    flex-flow: wrap;
+    flex-wrap: wrap-reverse;
+}
+

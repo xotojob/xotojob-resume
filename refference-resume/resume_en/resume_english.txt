@@ -1,0 +1,245 @@
+Gregoire Cousin
+2 years, 6 months of work experience
+Fullstack ENGINEER JEE / JS
+
+# OBJECTIVE 
+
+Currently looking for a job in the IT field, I am offering my candidacy as a Web Developer to ensure a high level of efficiency and productivity
+
+# PROFILE 
+
+I am a graduate with a masters in computer science currently working as a Web Developer. I have always been passionate about technology, first graduating in 2012 with a degree in sound engineering and subsequently working for several world wide known recording studios. My passion for technology then led me to work for Apple Inc. which further drove me to explore computer programming as a career path. I have found that the combination of technical knowledge, logic, and creativity that programming requires is highly fulfilling and continues to fascinate me to this day. Given my dynamic and inquisitive nature, I could not see myself working in any other field. I have come to the realization that the diverse application of programming knows no bounds! I believe that technology has strong potential for bringing people together and stimulating human progress at a faster and more efficient pace than ever before
+
+# TECHNOLOGY STACK
+
+### Programming Languages
+JavaScript, TypeScript 4, Java 11/17, Python, HTML 5, CSS 3, SCSS
+
+### JavaScript Environment
+VueJS 2/3, Angular 2+/10/11/12/13, React, RXJS, Apache, NGRX, NodeJS, Ionic, ExpressJS, JQuery 
+
+### Java Environment
+Spring Boot 2, Hibernate, EJS, Websockets, SOAP, REST
+
+### Database
+MySQL, PostgreSQL, MariaDB, GraphQL, Redis, Firebase
+
+### Tests
+Jest, Junit, TestNG, Mockito, Emma, Karma, Jasmine, Mocha, Cypress
+
+### Software
+Visual Studio, Neovim, JetBrains, Jira, Sketch, Adobe Suite, DBeaver
+
+### Architecture
+Monolith, Micro-frontends, Micro-services
+
+### Bundlers and Package Managers
+Webpack, Snowpack, Vite, NX, Gradle, Maven, NPM, Yarn
+
+### DevOps
+Gitlab CI, Github Action, Jenkins, Docker, AWS
+
+### Methodology
+Scrum, BDD, V model
+
+### Operating systems 
+Linux : Ubuntu, Debian, Windows, MacOS
+
+# ACADEMIC TRAINING
+
+MSC · COMPUTER SCIENCE
+@UNIVERSITY COLLEGE DUBLIN · DUBLIN, IRELAND · 2019
+(Emplaced a solid foundation for analyzing problems and providing practical solutions)
+
+- Security System
+- Ucd, Udd, Ux, Ui
+- Mobile App Dev Cocoa Touch
+- Collective Intelligence
+- Python Data Programming 
+- Ruby Programming
+- Big Data Programming
+- Contemporary Development
+- Cloud Computing
+- Distributed Systems
+- Recommender Systems 
+- Information Security
+
+BTS · SOFTWARE DEVELOPMENT
+@MAYNOOTH UNIVERSITY · CELBRIDGE, IRELAND · 2018
+(A technical, methodological and organizational introduction to software development)
+
+- Algorithm Data Structures 
+- Computer Systems
+- Software Testing
+- Object Programming
+- Web Information Processing
+- Software Projects
+- Mobile Development
+- Database
+- Structured Programming
+
+@SNCF French National Railways : 09/2021 - present
+Role : Full stack JEE / Angular/React/VueJS Developer Engineer
+Project : Development and management of various applications for the detection of public transport flows
+Methodology : V-model methodology, 2-week cycles 
+Team : Team of 7 members
+Technology : Angular 13, Typescript, Java 11, Spring Boot 2, VueJS, React, Gradle, Postgre, Webpack, Ice-Scrum, SCSS
+	•	Creation of React/Vue/Angular modules for micro-frontends
+	•	Study of a version upgrade from Angular 7 to 13 with subsequent redesign
+	•	Development of a comparison system
+	•	Creation of a batch system (CSV)
+	•	Creation of unit tests with JUnit
+	•	Implementation of a BEM/ITCSS system design
+
+@ADEME - Nantes : 08/2020 to 06/2021
+Role : Full stack JEE / Angular/React/VueJS Developer Engineer
+Project : Development of an energy transition support service program adopted by ADEME and funded by the French government
+Methodology : Agile Scrum methodology, a 4-week cycles 
+Team : Team of 5 members 
+	•	Participation in the software architecture
+	•	Front-end development with Angular 10/11
+	•	Back-end development with Spring Boot 2
+	•	Creation of a batch system (CSV)
+	•	Creation of unit and  end-to-end tests with Jest and Cypress
+	•	Optimization of the applications performance (Lazy Loading, request processing, CSS)
+
+@XOTOPIO – Nantes : 09/2019 to 08/2020 then 05/2021 - present
+Role : Full stack VueJS / TypeScript Developer 
+Project : Freelancer on the Xotosphere project : bringing together social media and the commercial sector to support local artisans
+Methodology : Agile Scrum methodology, 2-week Cycles 
+Team : Team of 3 members (Team of 3 international developers (France, Italy and India) and 3D artists)
+Technology : Vue3, Typescript, SSH, Gitlab-Runners, Dockers, Lerna, Submodules, GraphQL, Owasp, NGRX, Digital Ocean VM, Mongo, Atlas, Jira, Discord
+	•	Implementation of a monorepo architecture with Lerna
+	•	Design of a model on Sketch and Illustrator
+	•	Front-end development in Vue 3 and back-end development in NodeJS
+	•	Creation of an API Gateway to intercept and process data
+	•	Query optimization with GraphQL 
+	•	Implementation of industrialization via Gitlab CI
+	•	3D image compression technologies
+	•	Use of Git submodules
+	•	Creation of Back micro-services
+	•	Blue/Green deployment
+	•	Unit testing + Integration testing
+
+@IMAIOS – Montpellier : 06/2019 to 09/2019
+Role : Full stack JS Developer Internship
+Project :  @Imaios is an innovative company in the field of medical imaging and e-learning
+Methodology : V-model methodology 
+Team : Team of 7 members (50 other members world-wide) 
+Technology : Angular2+, NodeJS, EJSTypescript, Docker, NGRX, Jest, Owasp, Runscope, Ghost Inspector, Google Lighthouse
+	•	Creation of new screens, graphic components in the GUI
+	•	Development of optimization systems using websockets via Python
+	•	Creation of a module that integrates Runscope, Ghost Inspector and Google Lighthouse to generate detailed reports
+	•	Creation of test modules to facilitate the processing of AWS pipeline deployment
+	•	Support for data migration, design and media streaming applications
+
+# PERSONAL PROJECTS – Nantes : 09/2019 - present
+
+Role : Full stack Javascript/Typescript Developer
+Project 1 : Cv-gen : a tool that generates personalised CVs
+Duration : 5 months
+Technology : Vue2, NodeJS, NPM, Puppeteer, MongoDB, Gitlab CI, HTML, SCSS,
+	•	Design of a model with 3D maps (SCSS)
+	•	Modeling of the DB in Mongo
+	•	Front end development in Vue2 
+	•	Back end development in NodeJS 
+	•	Web scraping data generation using Puppeteer
+	•	Unit testing + Integration testing 
+	•	Implementation of industrialization via Gitlab CI 
+	•	Code Review
+
+Role : Full stack Javascript/Typescript Developer
+Project 2 : Xotopolo : Creation of an e-commerce site for clothing, accessories
+Duration : 6 months
+Technology : NodeJS, EJS, Websockets, Unit Testing
+	•	Front end development in EJS
+	•	Back end development in NodeJS 
+	•	Webservice Rest development 
+	•	Unit testing + Integration testing 
+
+Role : Full stack Javascript/Typescript Developer
+Project 3 : Personal website with a neon theme showcasing my projects, professional experience and qualifications 
+Duration : 3 months
+Technology : NodeJS, Handlebars, Javascript, JQuery, Digital Ocean, Waypoints, Lazyloading
+	•	Optimized animation using buffer and throttling concepts
+	•	Front-end development in EJS and Handlebars
+	•	Back-end development in NodeJS
+	•	Unit testing + Integration testing 
+	•	Implementation of industrialization via Gitlab CI 
+	•	Code review
+
+Role : Full stack Javascript/Typescript Developer
+Project 4 : Le Bon Coin Quick Glance - Quick overview via a gallery from the “Le Bon Coin” website 
+Duration : 6 months
+Technology : Inquirer, Webpack, NodeJS, NPM, Middlewares, Logs, Json
+	•	Development of an API to extract information from the Le Bon Coin website
+	•	Generation of data via JSON files
+
+Role : Full stack Javascript/Typescript Developer
+Project 5 : Pythongraph - Development of an application that collects data sets from a web API, pre-processes and analyses the collected data
+Duration : 8 months
+Technology : Graphs, Jupyter, MD, Python 
+	•	Implementation via Jupyter
+	•	Creation of an API that collects data from one or more APIs using Python
+
+# LANGUAGES
+
+> JAVA
+Experience engineering web applications using multiple Java web frameworks (Struts, Spring Boot).
+
+> WEB DEVELOPMENT
+High level of experience with web development technologies, web design, application architectures (MVC), designing scalable and fault tolerant web applications, and deploying and hosting web sites to Linux servers.
+
+> PHP
+Self-taught for personal web projects, used professionally while working on IMAIOS Web UI.
+
+> NODE.JS
+High level level experience with writing Node applications as both standalone web sites and Electron Apps.
+
+> JAVASCRIPT
+Proficiency with front-end and back-end JavaScript, the DOM, and knowledge of the JavaScript runtime environment and functions.
+
+> RESTFUL API DESIGN
+Intermediate experience designing and developing RESTful APIs for Web Applications and Services.
+
+> SOFTWARE TESTING
+Adept knowledge of testing best practices, test driven development, and behavior driven development using Jest, Runscope, Ghost Inspector, JUnit, TestNG and Mocha.
+
+> FRAMEWORKS
+Moderate experience designing and developing Web applications with Vue, React and Angular. Data cv extensively uses Vue.js.
+
+> PYTHON
+Intermediate proficiency with Python, its constructs, best practices, advantages and shortfalls. Extensive knowledge of available libraries and PIP.
+
+> AWS
+Experience with EC2, API Gateway services and pipelines. Experience converting existing software solutions into Amazon Machine Images.
+
+> C/C++
+Self-taught level experience includes data structures, Unity Scripting and low level development. Moderately experienced with C++ and many language constructs.
+
+> DOCKER
+Intermediate proficiency with Docker, Docker Compose, with experience containerizing existing applications and knowledge of advantages and shortfalls of application containers and microservice architectures.
+
+> GIT
+Experience with using CLI Git, GitHub and GitLab to collaborate on a team and control software versions.
+
+> POSTGRES, MYSQL & MONGODB
+Intermediate knowledge of SQL syntax, dialogs, and features. Primary experience with PostgreSQL and MongoDB.
+
+> UX DESIGN
+Extreme drive and intuition to provide the best user experience for customers.
+
+> CODE REVIEW
+Experiance refactoring legacy code base of high-volume internal web applications that significantly improves code maintainability and decreases deployment time.
+
+> ADOBE SUITE
+Experience with developing marketing designs (logos, brochures, newsletters, infographics, presentations, and advertisements).
+
+> AGILE, DESIGN PATTERNS, UML
+High level of Experience Assessing project requirements using Agile & Scrum principles related to the high-volume online services.
+
+> RUBY RAILS
+Strong practical emphasis on system building. Experiance with Ruby on Rails in multiple modules throughout my education at UCD. Building Projects such as: an iTunes Audio Player.
+
+> BILINGUAL
+Bilangual in both French and English having lived in Colorado and Seattle in the United States, Dublin in Ireland and Paris and Nantes in France.

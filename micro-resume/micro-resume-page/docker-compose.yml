@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  page:
+    container_name: page
+    build:
+      context: ./packages/page
+    ports:
+      - '4040:4040'
+    environment:
+      - NODE_ENV=production
+    env_file: 
+      - .env
+    

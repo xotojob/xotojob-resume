@@ -1,0 +1,93 @@
+{
+  "home": {
+    "tags": {"and": "and", "dot": "."},
+    "certificate": {"sectiondata": {}, "title": "Licenses & Certifications", "subtitle": "A set of certifications accomplished over the years 📜", "dataset": [
+		{"title": "HTML5 and CSS 3", "value": "Udemy", "description": "(Oct. 2019)", "img": "assets/images/development/certifications/cert-html.png"},
+		{"title": "VueJS 3", "value": "Online", "description": "(Oct. 2020)", "img": "assets/images/development/certifications/cert-vue.png"},
+		{"title": "Angular 11", "value": "Online", "description": "(Oct. 2021)", "img": "assets/images/development/certifications/cert-angular.png"}
+		]},
+    "service": {
+	  "sectiondata": {},
+      "button": {"title": "Services Pricing","placeholder": "", "link": ""},
+      "title": "What I do",
+      "subtitle": "Interested in the skills I can bring to your project 👨‍💻?",
+      "dataset": [
+        {"title": "Angular, React & Vue Development", "subtitle": "I work with Angular, VueJs and ReactJS to create impressive, attractive, informative, and functional dynamic SPAs exceeding expectations", "description": "I will work with Angular, VueJs and ReactJS tp create an impressive, attractive, informative, and functional dynamic SPA site that exceeds your expectations and meets your business goals.", "img": ["code-branch"]},
+        {"title": "Frontend Web Development", "subtitle": "I apply the latest interface development technologies to take full advantage of web browser capabilities so your users can have the best experiance on your website.", "description": "Choose off shore Frontend web development services and get skilled professionals, state-of-art infrastructure, and latest technologies. I assure i will ensure that the job gets done with the highest level of professionalism and at market leading prices. ", "img": ["check-square"]},
+        {"title": "Java Backend Development", "subtitle": "I will help you build a Java and Spring Boot based application with the database of your choice. I specialize in creating outstanding custom websites.", "description": "I will help you to build Core Java applications with MysQL database. I will also create CMS for your website. I'm specialized in creating outstanding custom websites and e-commerce websites.", "img": ["code"]},
+        {"title": "Database Development", "subtitle": "I will deliver a database application in MySQL, Msqlite, SQL Server and MongodB. This Web Development service will help you bring growth and sales to your new idea!", "description": "I will helps you in providing database application in MySQL, Msqlite, SQL Server and MongodB. Our best Web Development service that brings you more leads and sales. ", "img": ["database"]}
+      ]
+    },
+    "about": {
+      "sectionset": {"portfolio": {"button": {"link": "portfolio", "title": "View Portfolio","placeholder": ""}}, "online": {"button": {"link": "", "title": "resume", "placeholder": ""}}, "resume": {"button": {"link": "", "title": "View Resume", "placeholder": ""}}, "button": {"title": "View Portfolio"}},
+      "introduction_company": "Hi ",
+	   "i_am" : "I'm ",
+      "title": "A programmer with a Masters in computer science. I'm a professional web developer specialised in frontend development for complex scalable web apps. I have high bug solving skills and am interested in on-going projects. My experiences are in web development languages and frameworks.",
+      "subtitle": "How may I help your project?",
+      "img": "assets/images/development/profile-lg.png"
+    },
+    "featured": {
+      "title": "Featured Projects",
+	  "subtitle": "<M>y most recent Projects",
+      "button": {"title": "View Portfolio"},
+      "card": [{
+		"title": "IMAIOS",
+		"subtitle": "The Atlas of anatomy and medical imaging, e-learning training for health professionals",
+        "img": "assets/images/development/clients/imaios/imaios-logo.png",
+        "value": "Full Time",
+        "button": {
+        	"title": "View",
+        	"link": "https://www.imaios.com/en"
+		}
+	},
+    {
+      "title": "OnePoint",
+      "subtitle": "An energy renovation support service program carried by ADEME with the help of the french government",
+      "img": "assets/images/development/clients/ademe/ademe-logo.png",
+      "value": "Full Time",
+      "button": {
+        	"title": "View",
+        	"link": "https://www.ademe.fr/sare-service-daccompagnement-a-renovation-energetique"
+     	 }
+   	 }
+      ]
+    },
+    "testimonial": {
+      "title": "Testimonials",
+	  "subtitle": "Come see my reviews from other professionals",
+      "dataset": [
+        {"title": "Connor Martin", "value": "DevOps Engineer at TCS", "description": "I studied for a software development degree with Gregoire, he is a hard worker with excellent attention to detail. We worked well together in a team solving problems and developing software projects.", "img": "assets/images/development/testimonials/connor_martin.png"},
+        {"title": "George Varghese", "value": "Founder and Producer at Verge Studios", "description": "Greg was my instructor at Robert Lang Studios and the first thing that struck me bout him was his passion and enthusiasm for studio recording. His foundations were solid and he took the time to get me confident and fluent in using Pro Tools. He covered various concepts in audio engineering and was able to demonstrate them through various student sessions in the Studio. After my training was completed he graciously helped engineer the tracking of my guitars on my album 'Back in Time' which has won the Akademia award for best Instrumental. Greg has been a mentor, instructor and friend and I miss working with him, but wish him the very best in his future endeavours.", "img": "assets/images/development/testimonials/george_vargeese.png"},
+        {"title": "Clément Travers", "value": "Software Developer @ onepoint", "description": "I worked together with Gregoire in web development for about 6 months, and he showed a great enthusiasm, paired with his skills on the Angular front-end side of the project. Quick to learn and to adapt, he managed to bring new ideas to the table, as well as a good capacity to work in a team.", "img": "assets/images/development/testimonials/clement_travers.png"}
+      ]
+    },
+    "skill": {
+      "title": "Skills",
+      "subtitle": "The list of skills I work with everyday ⟴ more to come 📚!",
+      "button": {"title": "Services Pricing", "placeholder": "", "link": ""},
+      "dataset": [
+        {"title": "Java", "img": ["java"], "value": 4, "description": "Experience engineering web applications using multiple Java web frameworks (Struts, Spring Boot)"},
+        {"title": "Web Development", "img": ["css3-alt", "html5"], "value": 4, "description": "High level of experience with web development technologies, web design, application architectures (MVC), designing scalable and fault tolerant web applications, and deploying and hosting web sites to Linux servers"},
+        {"title": "PHP", "img": ["php"], "value": 3, "description": "Self-taught for personal web projects, used professionally while working on IMAIOS Web UI"},
+        {"title": "Node.js", "img": ["node-js"], "value": 2, "description": "High level level experience with writing Node applications as both standalone web sites and Electron Apps"},
+        {"title": "JavaScript", "img": ["js-square"], "value": 3, "description": "Proficiency with front-end and back-end JavaScript, the DOM, and knowledge of the JavaScript runtime environment and functions"},
+        {"title": "RESTful API Design", "img": ["js"], "value": 2, "description": "Intermediate experience designing and developing RESTful APIs for Web Applications and Services"},
+        {"title": "Software Testing", "img": ["linux"], "value": 4, "description": "Adept knowledge of testing best practices, test driven development, and behavior driven development using Jest, Runscope, Ghost Inspector, JUnit, TestNG and Mocha"},
+        {"title": "Frameworks", "img": ["angular", "vuejs", "react"], "value": 3, "description": "Moderate experience designing and developing Web applications with Vue, React and Angular. Data cv extensively uses Vue.js"},
+        {"title": "Python", "img": ["python"], "value": 2, "description": "Intermediate proficiency with Python, its constructs, best practices, advantages and shortfalls. Extensive knowledge of available libraries and PIP"},
+        {"title": "AWS", "img": ["aws"], "value": 2, "description": "Experience with EC2, API Gateway services and pipelines. Experience converting existing software solutions into Amazon Machine Images"},
+        {"title": "C/C++", "img": ["dev"], "value": 1, "description": "Self-taught level experience includes data structures, Unity Scripting and low level development. Moderately experienced with C++ and many language constructs"},
+        {"title": "Docker", "img": ["docker"], "value": 2, "description": "Intermediate proficiency with Docker, Docker Compose, with experience containerizing existing applications and knowledge of advantages and shortfalls of application containers and microservice architectures"},
+        {"title": "Git", "img": ["git", "github"], "value": 3, "description": "Experience with using CLI Git, GitHub and GitLab to collaborate on a team and control software versions"},
+        {"title": "Postgres, MySQL & MongoDB", "img": ["buffer"], "value": 3, "description": "Intermediate knowledge of SQL syntax, dialogs, and features. Primary experience with PostgreSQL and MongoDB"},
+        {"title": "UX Design", "img": ["css3"], "value": 3, "description": "Extreme drive and intuition to provide the best user experience for customers"},
+        {"title": "Code Review", "img": ["cpanel"], "value": 4, "description": "Experiance refactoring legacy code base of high-volume internal web applications that significantly improves code maintainability and decreases deployment time"},
+        {"title": "Adobe Suite", "img": ["adobe"], "value": 5, "description": "Experience with developing marketing designs (logos, brochures, newsletters, infographics, presentations, and advertisements)"},
+        {"title": "Agile, Design Patterns, UML", "img": ["jira"], "value": 3, "description": "High level of Experience Assessing project requirements using Agile & Scrum principles related to the high-volume online services"},
+        {"title": "Ruby Rails", "img": ["font-awesome"], "value": 2, "description": "Strong practical emphasis on system building. Experiance with Ruby on Rails in multiple modules throughout my education at UCD. Building Projects such as: an iTunes Audio Player"},
+        {"title": "Npm Gulp & Webpack", "img": ["npm", "gulp", "grunt"], "value": 6, "description": ""},
+        {"title": "Bilingual: French & English", "img": ["medium"], "value": 5, "description": "Bilangual in both French and English having lived in Colorado and Seattle in the United States, Dublin in Ireland and Paris and Nantes in France"}
+      ]
+    }
+  }
+}

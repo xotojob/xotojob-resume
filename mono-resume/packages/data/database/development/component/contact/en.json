@@ -1,0 +1,28 @@
+{
+  "contact": {
+    "title": "Contact Page",
+    "form": {
+      "sectionset": {"message": {"button": {"title": "Send Now", "placeholder": "A Message"}}, "name": {"button": {"title": "Send Now", "placeholder": "Your Name"}}, "email": {"button": {"placeholder": " Email"}}, "visit": {"button": {"title": "Visit Profile"}}},
+      "tags": {"name": "Name", "email": "Email", "inTouch": "Get In Touch"},
+      "subject": {"title": "Subject...", "options": [{"value": "Improvement 🔧", "title": "Improvement 🔧"}, {"value": "Bug Fixing 🐞", "title": "Bug Fixing 🐞"}, {"value": "HELP 😰!", "title": "HELP 😰!"},  {"value": "Backend 💻", "title": "Backend 💻"}, {"value": "Frontend 🎨", "title": "Frontend 🎨"}, {"value": "Database 💾", "title": "Database 💾"}, {"value": "Not sure 🤔?", "title": "Not sure 🤔?"}, {"value": "Employment 🧳?", "title": "Employment 🧳?"}]},
+      "package": {"title": "Select a service package you're interested in...", "options": [{"value": "BASIC 🏝", "title": "BASIC 🏝"}, {"value": "STANDARD 🔥", "title": "STANDARD 🔥"}, {"value": "PREMIUM 🚀", "title": "PREMIUM 🚀"}, {"value": "NOT SURE 😩?", "title": "NOT SURE 😩?"},  {"value": "Employment 🧳?", "title": "Employment 🧳?"}]},
+      "services": {"link": "Services Pricing page", "title": "Want to know what's included in each package?"}
+    },
+    "me": {"title": "Contacts", "subtitle": "Interested in hiring me for your project or just want to say hi?"}, 
+    "pricing": {"title": "Freelancing Profiles", "subtitle": "Visit my freelancing profiles to order custom service", "links": [{"title": "Fiverr", "link": "https://www.fiverr.com/gregoirecousin?up_rollout=true", "img": "assets/images/development/logos/fiverr-logo.png"}, {"title": "Freelancer", "link": "https://www.freelancer.pk/u/gregcousin126", "img": "assets/images/development/logos/freelancer-logo.png"}]},
+    "cta": {
+      "title": "Interested in hiring me for your project or just want to say hi?",
+      "subtitle": "Want to get connected? Follow me on the social channels below. You can fill in the contact form below or send me an email",
+      "links": [
+        {"link": "https://twitter.com/gregcousin126", "value": "twitter", "title": "twitter"},
+        {"link": "https://www.linkedin.com/in/gregcousin126/", "value": "linkedin", "title": "linkedin"},
+        {"link": "https://github.com/gregcousin126", "value": "github-alt", "title": "github"},
+        {"link": "https://www.instagram.com/gregcousin126/", "value": "instagram", "title": "instagram"},
+        {"link": "https://stackoverflow.com/users/8848159/gregoire-cousin", "value": "stack-overflow", "title": "stack-overflow"},
+        {"link": "https://www.behance.net/gregcousin126", "value": "behance", "title": "behance"},
+        {"link": "https://codepen.io/gregcousin126", "value": "codepen", "title": "codepen"},
+        {"link": "https://web.facebook.com/gregcousin126", "value": "facebook ", "title": "facebook"}
+      ]
+    }
+  }
+}

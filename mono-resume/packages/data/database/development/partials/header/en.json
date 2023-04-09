@@ -1,0 +1,9 @@
+{
+  "header": {
+    "status": {"greeting": "Welcome to my Personal Website!"},
+    "tags": {"hire": "Hire Me"},
+    "currentPage": {"button": {"title": "current"}},
+    "morePages": {"button": {"title": "More"}},
+    "themeMode": {"light": "Light Mode", "dark": "Dark Mode"}
+  }
+}

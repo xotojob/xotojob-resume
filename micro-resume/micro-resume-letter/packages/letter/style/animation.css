@@ -1,0 +1,62 @@
+@-webkit-keyframes slide-in-top {
+  0% {
+    top: 150%;
+    display: visible
+  }
+
+  15% {
+    top: 20%;
+    display: visible
+  }
+
+  85% {
+    top: 20%;
+    display: visible
+  }
+
+  100% {
+    top: 150%;
+    display: visible
+  }
+}
+
+.drop-target-icon {
+  margin: auto;
+  width: fit-content;
+  padding: 0;
+  height: fit-content;
+  border-radius: 50%;
+  background: #000;
+  padding: .5em 0
+}
+
+.drop-target-text {
+  padding: .5em 0;
+  overflow-wrap: break-word;
+  font-size: 35px;
+  font-family: Poppins;
+  letter-spacing: 3px;
+  font-weight: 900;
+  color: #000;
+  width: 80%;
+  margin: auto
+}
+
+hr {
+  border-top: 14px solid rgba(0, 0, 0, .152);
+  width: 1181px;
+  top: 279px;
+  position: absolute
+}
+
+@media (max-width:480px) and (min-width:0px) {
+  #typewriter {
+    display: none;
+    opacity: 0
+  }
+
+  .hide {
+    display: none;
+    opacity: 0
+  }
+}

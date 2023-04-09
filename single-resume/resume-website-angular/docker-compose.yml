@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:  resume:
+    container_name: resume
+    build:
+      context: ./packages/resume
+    ports:
+      - '5000:5000'
+    environment:
+      - NODE_ENV=production
+    env_file: 
+      - .env
+    

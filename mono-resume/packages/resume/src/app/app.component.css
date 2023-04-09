@@ -1,0 +1,26 @@
+.container {
+    max-width: 450px;
+}
+
+label,
+.btn {
+    font-weight: 600;
+}
+
+
+.section-off {
+	display: none;
+}
+
+.section-on {
+	display: block;
+}
+
+
+/* p {
+	color: black;
+} */
+
+.pricing-price-row {
+overflow-wrap: anywhere;
+}

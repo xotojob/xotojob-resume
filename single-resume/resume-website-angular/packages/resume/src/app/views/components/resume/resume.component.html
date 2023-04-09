@@ -1,0 +1,158 @@
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading mb-4">Gregoire Cousin Resume</h2>
+		<a class="btn-danger btn mr-2 mb-3" :href="https://xotopio.com:4040"><i class="fas fa-file-pdf mr-2"></i>Download PDF</a>
+	</div>
+</section>
+<div class="container px-3 px-lg-5">
+	<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+		<div class="resume-header">
+			<div class="row align-items-center">
+				<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+					<h2 class="resume-name mb-0 text-uppercase">{{configData?.contact.name}}</h2>
+					<h1 class="resume-tagline mb-3 mb-md-0">{{configData?.contact.role}}</h1>
+				</div>
+				<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+					<ul class="list-unstyled mb-0">
+						<div *ngFor="let links of configData?.contact.links">
+							<li class="mb-2" *ngIf="links.value === 'phone' "><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" :href="tel:+{{links.link}}">{{links.link}}</a></li>
+							<li class="mb-2" *ngIf="links.value === 'email' "><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" :href="mailto:{{links.link}}">{{links.link}}</a></li>
+							<li class="mb-2" *ngIf="links.value === 'web' "><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" :href="{{links.link}}">{{links.link}}</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div *ngIf="configData?.profileIsDefined">
+			<hr>
+			<div class="resume-intro py-2">
+				<div class="media flex-column flex-md-row align-items-center">
+					<img class="resume-profile-image col-16 mb-4 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" :src="{{configData?.contact.intro.img}}" alt="image">
+					<div class="media-body text-left">
+					<p class="mb-0 read-more">{{configData?.contact.intro.title }}
+						<span style="cursor: pointer;" (click)="triggerReadMore()" *ngIf="!showAll">... see more </span>
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="resume-body">
+			<div class="row py-2">
+				<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+					<section class="work-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.work.title}}</h3>
+						<div class="item" *ngFor="let experience of resumeData?.work.experiences">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-7 mb-2 mb-md-0">{{experience.title}} <p class="item-company"> ✤ {{experience.company}}</p>
+								</h4>
+								<div class="item-meta col-12 col-md-6 col-lg-5 text-muted text-left text-md-right">{{experience.location}} | {{experience.from}} - {{experience.to}}</div>
+							</div>
+							<div class="item-content">
+								<p>{{experience.description}}</p>
+								<ul class="resume-list">
+									<li class="resume-item pr-1" *ngFor="let result of experience.results">{{result}}</li>
+								</ul>
+								<!-- <p style="font-weight: 600;">{{resumeData?.work.tags.technologies}}</p> -->
+								<ul class="resume-list">
+									<li class="resume-item my-2 tag-name" *ngFor="let technologies of experience.technologies">{{technologies}}</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<hr class="my-4">
+					<section class="project-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.academic.title}}</h3>
+						<div class="item mb-3" *ngFor="let edu of resumeData?.academic.educations">
+							<div class="item-heading row align-items-center mb-2">
+								<h4 class="item-title col-12 col-md-6 col-lg-7 mb-2 mb-md-0">{{edu.type}} {{edu.subject}}</h4>
+								<div class="item-meta col-12 col-md-6 col-lg-5 text-muted text-left text-md-right">{{edu.school}} | {{edu.location}} | {{edu.date}}</div>
+							</div>
+							<div class="item-content">
+								<ul class="resume-list">
+									<li class="resume-item pr-1" *ngFor="let modules of edu.modules">{{modules}}</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<hr class="my-4">
+					<section class="project-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.project.title}}</h3>
+						<div class="item mb-3 " *ngFor="let projects of resumeData?.project.projects">
+							<a href="{{projects.url}}">
+								<div class="item-heading row align-items-center mb-2">
+									<h4 class="item-title col-12 col-md-6 col-lg-7 mb-2 mb-md-0 text-uppercase">Ξ&nbsp;&nbsp;{{projects.title}}</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-5 text-muted text-left text-md-right">{{projects.category}}&nbsp;|&nbsp;{{projects.type}}</div>
+								</div>
+							</a>
+							<div class="item-content">
+								<p>{{projects.description}}</p>
+								<ul class="resume-list ">
+									<li class="resume-item pr-1" *ngFor="let feature of projects.features">{{feature}}&nbsp;</li><br>
+								</ul>
+								<!-- <p style="font-weight: 600;">{{resumeData?.work.tags.technologies}}</p> -->
+								<ul class="resume-list ">
+									<li class="resume-item tag-name" *ngFor="let technologies of projects.technologies">{{technologies}}</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+				<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+					<section class="skills-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.skill.title}}</h3>
+						<div class="item">
+							<h4 class="item-title">{{resumeData?.skill.subtitle}}</h4>
+							<ul class="list-skills resume-skills-list">
+								<li *ngFor="let skill of resumeData?.skill.dataSet" class="resume-item pr-1">{{skill.title}}</li>
+							</ul>
+						</div>
+					</section>
+					<hr class="my-4">
+					<section class="education-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.award.title}}</h3>
+						<ul class="list-unstyled resume-awards-list">
+							<li class="mb-3" *ngFor="let award of resumeData?.award.dataSet">
+								<div class="font-weight-bold">{{award.title}}</div>
+								<div class="text-muted">{{award.value}} | {{award.date}}</div>
+							</li>
+						</ul>
+					</section>
+					<hr class="my-4">
+					<section class="cert-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.certificate.title}}</h3>
+						<ul class="list-unstyled resume-cert-list">
+							<li class="mb-3 item" *ngFor="let certificate of resumeData?.certificate.dataSet">
+								<div class="font-weight-bold"><a href="" class="item-title">{{certificate.title}}</a></div>
+								<div class="text-muted source">{{certificate.value}} | {{certificate.date}}</div>
+							</li>
+						</ul>
+					</section>
+					<hr class="my-4">
+					<section class="skills-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.language.title}}</h3>
+						<ul class="list-unstyled resume-lang-list">
+							<li *ngFor="let languages of resumeData?.language.dataSet" class="mb-2">{{languages.title}}&nbsp;<span class="text-muted">{{languages.value}}</span></li>
+						</ul>
+					</section>
+					<hr class="my-4">
+					<section class="skills-section pt-2">
+						<h3 class="text-uppercase resume-section-heading mb-4">{{resumeData?.hobbie.title}}</h3>
+						<ul class="list-unstyled resume-interests-list mb-0">
+							<li class="mb-2" *ngFor="let hobbie of resumeData?.hobbie.hobbies">{{hobbie}}</li>
+						</ul>
+					</section>
+					<hr class="my-4">
+				</aside>
+			</div>
+		</div>
+		<hr>
+		<div class="resume-footer text-center py-2">
+			<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+				<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://github.com/gregcousin126"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/gregcousin126</span></a></li>
+				<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://www.linkedin.com/in/gregcousin126/"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/gregcousin126</span></a></li>
+				<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="https://twitter.com/gregcousin126"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@gregcousin126</span></a></li>
+			</ul>
+		</div>
+	</article>
+</div>

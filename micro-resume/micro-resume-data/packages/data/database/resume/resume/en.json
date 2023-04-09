@@ -1,0 +1,244 @@
+{
+ "resume": {
+	"objective": "Currently looking for a job in the IT field, I am offering my candidacy as a Web Developer to ensure a high level of efficiency and productivity",
+	"profile": "I am a graduate with a masters in computer science currently working as a Web Developer. I have always been passionate about technology, first graduating in 2012 with a degree in sound engineering and subsequently working for several world wide known recording studios. My passion for technology then led me to work for Apple Inc. which further drove me to explore computer programming as a career path. I have found that the combination of technical knowledge, logic, and creativity that programming requires is highly fulfilling and continues to fascinate me to this day. Given my dynamic and inquisitive nature, I could not see myself working in any other field. I have come to the realization that the diverse application of programming knows no bounds! I believe that technology has strong potential for bringing people together and stimulating human progress at a faster and more efficient pace than ever before",
+	"certificate": {"title": "Cerficates", "dataSet": [{"title": "HTML5 and CSS 3", "value": "Udemy", "date": "(Oct. 2019)", "img": "assets/img/courses_cert/img1-min.jpg"}]},
+    "hobbie": {"title": "Interests", "hobbies": ["Programming 🧑🏽‍💻", "Football ⚽️", "Listening 👂🏻", "Travelling ✈️"]},
+    "academic": {
+		"title": "Academic",
+		"educations": [
+			{
+				"type": "BTS",
+				"subject": "Recording Arts",
+				"school": "FullSail University",
+				"date": "2012",
+				"location": "Orlando, FL, USA",
+				"subjects": "Courses included: advanced audio recording, audio workstation, microphone theory, vocal production, audiotronics/electricity, digital mastering, game sound programming, audio plugins, audio consoles/controllers, video production, internet protocols, music theory",
+				"summary": "A university focused on Audio Technologies with the goals of making you become an engineer",
+				"modules": ["advanced audio recording", "audio workstation", "microphone theory", "vocal production", "audiotronics/electricity", "digital mastering", "game sound programming", "audio plugins", "audio consoles/controllers", "video production", "internet protocols", "music theory"]
+			},
+			{
+				"type": "BTS",
+				"subject": "Software Development",
+				"school": "Maynooth University",
+				"date": "2018",
+				"location": "Celbridge, Ireland",
+				"subjects": "Courses included: algorithm data structures, object-oriented code, software design, mobile development, computer systems, web information processing, database, user experience/user interface, software testing, software projects, structured programming",
+				"summary": "A technical, methodological and organizational introduction to software development",
+				"modules": ["algorithm data structures", "object programming", "mobile development", "computer systems", "web information processing", "database", "software testing", "software projects", "structured programming", "user experience/user interface", "object-oriented programming", "software design"]
+			},
+			{
+				"type": "MSC",
+				"subject": "Computer Science",
+				"school": "University College Dublin",
+				"date": "2019",
+				"location": "Dublin, Ireland",
+				"subjects": "Courses included: security system, python data programming, cloud computing, user centered design/user experience user interface (ux, ui), ruby, distributed systems, mobile app dev cocoa touch, big data programming, recommender systems collective intelligence, contemporary development, introduction to information security",
+				"summary": "Solid foundation for analyzing problems and providing practical solutions",
+				"modules": ["security system", "python data programming", "cloud computing", "ucd, udd, ux, ui", "ruby programming", "distributed systems", "mobile app dev cocoa touch", "big data programming", "recommender systems", "collective intelligence", "contemporary development", "information security", "introduction to information security", "contemporary development"]
+			}
+		]
+	},
+    "award": {"title": "Honor Awards", "dataSet": [{"title": "1st Position Winner", "value": "Writing Competition", "date": "(2010)"}]},
+    "language": {"title": "Languages", "dataSet": [{"title": "English 🇺🇸", "value": "(Professional)"}, {"title": "French 🇫🇷", "value": "(Native)"}, {"title": "Spanish 🇪🇸", "value": "(Conversational)"}]},
+    "project": {
+      "title": "Projects",
+      "projects": [
+		{
+          "title": "XOTOSPHERE.COM",
+          "type": "Private",
+          "category": "E-COM",
+          "url": "COMMING SOON",
+          "description": "Leading a small team of engineers and 3d artists using agile platforms to move forward together. This project is designed as a new platform, merging social media and the commercial industry to support local artisans",
+          "features": ["3D image compression technologies", "lerna monorepo", "mongo database", "blue-green deployment"],
+		  "technologies": ["VUE 🥽", "Typescript 🔥", "SSH ✅", "FullStack 📦", "Gitlab-runner 🏃🏽‍♂️", "Docker 📃"]
+        },
+        {
+          "title": "XOTOPIO.COM",
+          "type": "Open Source",
+          "category": "Personal Website",
+          "url": "COMMING SOON",
+          "description": "A neon theme based website containing all of my projects, work experience and services",
+          "features": ["3D cards, Font depths, color manipulation and optimized anamation", "A typewritter reveils a code styled resume with proper syntax", "Hidden treasures based on clicking, hovering perticular places on the website"],
+		  "technologies": ["DigitalOcean 🤿", "JS 🖥", "Jquery 🐣", "Waypoints 👆", "Animation 🔂", "Lazyloading 🛋"]
+        },
+        {
+		  "title": "CV-GENERATION", 
+		  "type": "Open Source", 
+		  "category": "Simple CV Management Tool", 
+		  "url": "COMMING SOON", 
+		  "description": "A tool I created to allow me to generate custom tailored cvs for different positions", 
+		  "features": ["Uses a data file to populate a vue template", "Everything I could possibly want to change is a parameter in that data file"], 
+		  "technologies": ["Angular 💪", "HTML 📄", "SCSS 🎨", "NodeJS 🔥", "NPM 🏃🏻‍♀️", "Puppeteer 😅", "Font-Awesome 💟"]
+		},
+		       {
+          "title": "PREDICTED TEXT",
+          "type": "Open Source",
+          "category": "Keyboard Phone Simulation",
+          "url": "https://github.com/gregcousin126/university.college.dublin/blob/master/ucd.algorithm.advanced.structures/alg.ad.partb/alg.ad.phone.game/alg.ad.phone.game.pdf",
+          "description": "A dictionary is used by the system to “predict” which of the letters of the key the user actually wanted to use",
+          "features": ["Implementation of a Dictionary component", "The use of nodes and trees"],
+		  "technologies": ["Dictionaries 📜", "Java 👔", "Buffers 📊", "Streams 🚃", "FileReaders 📖", "Lists ✅", "Trees 🌲"]
+        },
+        {
+		  "title": "THEME DARK & LIGHT", 
+		  "type": "Open Source", 
+		  "category": "VSCode Theme", 
+		  "url": "https://marketplace.visualstudio.com/items?itemName=xotopio.xotopio-dark", 
+		  "description": "A deep dark neon, navy theme and a pastel light theme for vscode", 
+		  "features": ["Neon based design", "Pastel colors", "VS-Code Technologies"], 		
+		  "technologies": ["Json 🕸", "VSCode Syntax 💻", "Devtools 🛠", "Vsce 👾"]},
+        {
+          "title": "XOTOPOLO.COM",
+          "type": "Open Source",
+          "category": "Clothing Store",
+          "url": "COMMING SOON",
+          "description": "A store that brings together everything you need: clothes, accessories ..",
+          "features": ["CSS Grid with a beautiful card layout to showcase the merchandise", "Paypal, visa and stripe secure checkout", "Registration and Identification system using firebase Authentication"],
+		  "technologies": ["Vuejs 💪", "DigitalOcean 🤿", "Mutators 🧬", "Babel 🔥", "Express 💾", "Lazyload 🛋", "Firebase 💿"]
+        },
+        {
+     	  "title": "LBC QUICK GLANCE", 
+     	  "type": "Open Source", 
+     	  "category": "Quick LBC Image Preview", 
+     	  "url": "https://github.com/gregcousin126", 
+     	  "description": "A tool that allows me to look up the latest tools on the french popular site le bon coin", 
+     	  "features": ["An api to pull information from the website LBC",  "Stores all data in seperate a JSON files"], 
+     	  "technologies": ["Vue.js 💪", "Inquirer 📣", "Webpack 📦", "NodeJS 🛠", "NPM 🏃🏽‍♂️", "Middlewares 🖖", "Logs 🔖"]},
+        {
+		  "title": "CONNECT4 IOS BOT", 
+		  "type": "Open Source", 
+		  "category": "AI Game", 
+		  "url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.ios.cocotouch/ios.student.projects/ios.projects.connect.4", 
+		  "description": "A dynamic user interface for the game Connect4 to facilitate users to play against a deep learning bot", 
+		  "features": ["Session management", "User Select, Game and the History Screen"], 
+		  "technologies": ["Swift 🍎", "AI Bot 🤖", "XCode 🆘", "Tables ⎍", "MVC ♻️"]
+		},
+        {
+          "title": "TWEETER TAGS",
+          "type": "Open Source",
+          "category": "Twitter Application",
+          "url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.ios.cocotouch/ios.student.projects/ios.projects.tweetertags",
+          "description": "iOS application that allows users to search for tweets using “hashtags” or “usernames” as keywords",
+          "features": ["History screen containing the previous 100 searched by the user", "Tweets screen containing the tableview of tweets"],
+		  "technologies": ["Swift 4 😋", "Xcode 📱", "Storyboard 📈", "History ⏳"]
+        },
+        {
+          "title": "PYTHONGRAPH",
+          "type": "Open Source",
+          "category": "Local weather predictions",
+          "url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.python.data.analystics/python.assignments/python.assignment.pythongraph.1",
+          "description": "An application that collects sets from a web API, preprocesses and analyses the collected data",
+          "features": ["Implemented as a single Jupyter Notebook (not a script)", "Collect data from an API(s) using Python", "Load and represent data using an appropriate data structure"],
+		  "technologies": ["Graphs 📊", "Preparation 📖", "Jupyter 📕", "MD 📜", "Python 🐍", "Analysis 👀"]
+        },
+        {
+          "title": "GAME DESTROYER",
+          "type": "Open Source",
+          "category": "Unity Game with Physics",
+          "url": "https://github.com/gregcousin126/university.college.dublin/tree/master/ucd.game.development/game.dev.game/game.assignment2",
+          "description": "A game with a drone thats in charge of protecting the airport runway from two other enemies",
+          "features": ["creation of gravity measures", "different difficulty levels and AI mechanisms", "control mapping, movement, collision and crashes"],
+		  "technologies": ["Unity assets 📚", "Mesh Design and Rendering ➰", "Textures 🍀", "Scripts 📃", "C# 🆘"]
+        }
+      ]
+    },
+    "skill": {
+	"title": "Skills",
+	"subtitle": "Technical",
+      "dataSet": [
+        {"title": "Java", "level": 3,  "description": "Experience engineering web applications using multiple Java web frameworks (Struts, Spring Boot)"},
+        {"title": "Web Development", "level": 4,  "description": "High level of experience with web development technologies, web design, application architectures (MVC), designing scalable and fault tolerant web applications, and deploying and hosting web sites to Linux servers"},
+        {"title": "PHP", "level": 3,  "description": "Self-taught for personal web projects, used professionally while working on IMAIOS Web UI"},
+        {"title": "Node.js", "level": 2,  "description": "High level level experience with writing Node applications as both standalone web sites and Electron Apps"},
+       	{"title": "TypeScript & JavaScript", "level": 3,  "description": "Proficiency with front-end and back-end JavaScript, the DOM, and knowledge of the JavaScript runtime environment and functions"},        
+	   	{"title": "RESTful API Design", "level": 3,  "description": "Intermediate experience designing and developing RESTful APIs for Web Applications and Services"},
+        {"title": "Software Testing", "level": 4,  "description": "Adept knowledge of testing best practices, test driven development, and behavior driven development using Jest, Runscope, Ghost Inspector, JUnit, TestNG and Mocha"},
+        {"title": "Frameworks", "level": 3,  "description": "Moderate experience designing and developing Web applications with Vue, React and Angular. Data cv extensively uses Vue.js"},
+        {"title": "Python", "level": 2,  "description": "Intermediate proficiency with Python, its constructs, best practices, advantages and shortfalls. Extensive knowledge of available libraries and PIP"},
+        {"title": "AWS", "level": 2,  "description": "Experience with EC2, API Gateway services and pipelines. Experience converting existing software solutions into Amazon Machine Images"},
+        {"title": "C/C++", "level": 1,  "description": "Self-taught level experience includes data structures, Unity Scripting and low level development. Moderately experienced with C++ and many language constructs"},
+        {"title": "Docker", "level": 3,  "description": "Intermediate proficiency with Docker, Docker Compose, with experience containerizing existing applications and knowledge of advantages and shortfalls of application containers and microservice architectures"},
+        {"title": "Git", "level": 4,  "description": "Experience with using CLI Git, GitHub and GitLab to collaborate on a team and control software versions"},
+        {"title": "Postgres, MySQL & MongoDB", "level": 3,  "description": "Intermediate knowledge of SQL syntax, dialogs, and features. Primary experience with PostgreSQL and MongoDB"},
+        {"title": "UX Design", "level": 4,  "description": "Extreme drive and intuition to provide the best user experience for customers"},
+        {"title": "Code Review", "level": 4,  "description": "Experiance refactoring legacy code base of high-volume internal web applications that significantly improves code maintainability and decreases deployment time"},
+        {"title": "Adobe Suite", "level": 5,  "description": "Experience with developing marketing designs (logos, brochures, newsletters, infographics, presentations, and advertisements)"},
+        {"title": "Agile, Design Patterns, UML", "level": 3,  "description": "High level of Experience Assessing project requirements using Agile & Scrum principles related to the high-volume online services"},
+        {"title": "Ruby Rails", "level": 2,  "description": "Strong practical emphasis on system building. Experiance with Ruby on Rails in multiple modules throughout my education at UCD. Building Projects such as: an iTunes Audio Player"},
+        {"title": "Bilingual", "level": 4,  "description": "Bilangual in both French and English having lived in Colorado and Seattle in the United States, Dublin in Ireland and Paris and Nantes in France"}
+      ]
+    },
+    "work": {
+      "title": "Work Experiences",
+      "experiences": [
+		{
+		  "company": "XOTOPIO",
+		  "title": "Entrepreneur",
+		  "from": "Septembre 2019",
+		  "to": "Today",
+		  "location": "Nantes, FR",
+		  "description": "Working as a self-entrepreneur",
+		  "summary": "",
+		  "results": ["CV-GEN: A tool that generates your custom resumes so you can have the job of your dreams", "XOTOPOLO : A store that brings together everything you need : Clothing & Accessories.", "XOTOSPHERE : A project on the fusion of social and the commercial sector to support local artisans" ] ,
+		  "technologies": ["NodeJS 🔥", "EJS 🕸", "WebSockets 🚃", "PHP 🤓", "UnitTesting 👨🏼‍🔬", "lighthouse 🚨"]
+		},
+        {
+          "company": "ONEPOINT",
+          "title": "Full Stack Web Developer",
+          "from": "August 2020",
+          "to": "April 2021",
+          "location": "Nantes FR",
+          "description": "An energy renovation support service program carried by ADEME with the help of the french government",
+          "summary": "Utilized Agile Technologies with the use of Atlassian, Created Unit Tests, Developed UIs with Angular, Participated in the Softwares Architecture",		  
+          "results": ["Utilized Agile Technologies with Atlassian", "Created Unit Tests", "Developed UIs with Angular",  "Participated in the Softwares Architecture"],        
+		  "technologies": ["Spring Boot 🌿", "Typescript 👾", "Docker 🛶", "JAVA 👔", "Angular, NgRx & More 🏬", "Jest 🧪", "OWASP 🕸"]
+		},
+        {
+          "company": "IMAIOS",
+          "title": "Web Developer",
+          "from": "July 2019",
+          "to": "December 2019",
+          "location": "Montpellier, FR",
+          "description": "The Atlas of anatomy and medical imaging, e-learning training for health professionals",
+          "summary": "Assisted with data migration, design, document conversion and multimedia workflow applications. Created test modules to facilitate AWS pipeline deployment processing. Combined Ghost Inspector and Google Lighthouse to produce detailed reports",
+          "results": ["Created test modules to facilitate AWS pipeline deployment processing", "Combined Ghost Inspector and Google Lighthouse to produce detailed reports", "Assisted with data migration, design, document conversion and multimedia workflow applications"],
+		  "technologies": ["NodeJS 🔥", "EJS 🕸", "WebSockets 🚃", "PHP 🤓", "UnitTesting 👨🏼‍🔬", "lighthouse 🚨"]
+        },
+        {
+          "company": "APPLE STORE",
+          "title": "Apple Technician",
+          "from": "July 2014",
+          "to": "February 2017",
+          "location": "Shoreline, WA",
+          "description": "A company innovating technology made to enrich people’s lives",
+          "summary": "Established empowering communication experiences with the world’s most admired brands. Sold $1.5M of Apple products using sales and cogent techniques turning customers into promoters. Lead product training and troubleshooting workshops with effective communication skills. Worked with team members to deal with difficult interactions and complaints",
+          "results": ["Established empowering communication experiences with the world’s most admired brands", "Sold $1.5M of products using sales and cogent techniques turning customers into promoters", "Lead product training and troubleshooting workshops with effective communication skills", "Worked with team members to deal with difficult interactions and complaints"],
+		  "technologies": ["IOS 📱", "OSX 🍏", "Diagnostics 👀", "Team Management 🧑🏻‍🏫"]
+        },
+        {
+          "company": "ROBERT LANG STUDIOS",
+          "title": "Audio Engineer, Instructor Assistant Manager",
+          "from": "March 2013",
+          "to": "February 2017",
+          "location": "Shoreline, WA",
+          "description": "A world-renowned studio responsible for shaping the Seattle music scene",
+          "summary": "Tracked, mixed and mastered sessions for clients using current gear and techniques of the industry. Assisted well known engineers and producers in recording sessions. Taught and demonstrated industry standards and advanced courses to students. Responsible for scheduling good business flow and managing internships",
+          "results": ["Tracked, mixed and mastered sessions for clients using current gear and techniques of the industry", "Taught and demonstrated industry standards and advanced courses to students", "Responsible for scheduling good business flow and managing internships", "Assisted well known engineers and producers in recording sessions"],
+		  "technologies": ["Analog 🎙", "DAWs 💻", "AU Plugins 🔌"]
+        },
+        {
+          "company": "DARK CHILD STUDIOS",
+          "title": "Recording Studio Intern",
+          "from": "July 2012",
+          "to": "December 2012",
+          "location": "Los Angeles, CA",
+          "description": "Production studio of LA’s Grammy Winning Producer, Rodney Jerkins",
+          "summary": "Assisted staff in daily activities and maintenance of studio equipment. Set up, tear down and routing of audio hardware to assist lead engineers. Session Instrumentalist for multiple Grammy Nominated Producers and Engineers",
+          "results": ["Assisted staff in daily activities and maintenance of studio equipment", "Set up, tear down and routing of audio hardware to assist lead engineers", "Session Instrumentalist for multiple Grammy Nominated Producers and Engineers"],
+		  "technologies": ["Outboard 🎛", "Microphones 🎤", "Routing 🕸"]
+        }
+      ]
+    }
+  }
+}

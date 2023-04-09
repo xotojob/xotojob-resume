@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$angular-translate-app-primary: mat-palette($mat-indigo);
+$angular-translate-app-accent: mat-palette($mat-pink, A200, A100, A400);
+$angular-translate-app-warn: mat-palette($mat-red);
+$angular-translate-app-theme: mat-light-theme(( color: ( primary: $angular-translate-app-primary, accent: $angular-translate-app-accent, warn: $angular-translate-app-warn, ) ));
+
+@include angular-material-theme($angular-translate-app-theme);
+
+@import "./assets/plugins/owlcarousel/owl.carousel.min.css";
+@import "./assets/css/global.css";
+@import "./assets/css/theme-new.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

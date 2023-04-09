@@ -1,0 +1,31 @@
+<header class="header text-center">
+	<div class="force-overflow">
+		<h1 class="other-name pt-lg-4 mb-0"><a routerLink="/home" routerLinkActive="active">{{configData?.contact.name}}</a></h1>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<button id="mobile-menu-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div id="navigation" class="collapse navbar-collapse flex-column" (click)="onNavClicked()">
+				<div class="profile-section pt-3 pt-lg-0">
+					<img class="profile-image mb-3 rounded-circle mx-auto" src="{{configData?.contact.imgAvatar}}" alt="image">
+					<ul class="social-list list-inline py-2 mx-auto">
+						<li class="list-inline-item" *ngFor="let title of resumeData?.links">
+							<a :href="{{title.link}}"><i :class="fab fa-{{title.value}} fa-fw"></i></a>
+						</li>
+					</ul>
+					<hr>
+				</div>
+				<ul class="navbar-nav flex-column text-center">
+					<li class="nav-item" *ngFor="let route of routes">
+						<a class="nav-link text-capitalize" routerLink="{{route}}" routerLinkActive="active"><i :class="fas fa-{{seHeadertIcon(route)}} fa-fw mr-2"></i>{{route}}</a>
+					</li>
+				</ul>
+				<div class="dark-mode-toggle text-center w-100">
+					<hr class="mb-4">
+					<!-- <h4 *ngIf="mode" class="toggle-name mb-3 "><i class="fas fa-moon mr-1"></i></h4> -->
+					<!-- <h4 *ngIf="!mode" class="toggle-name mb-3 "><i class="fas fa-lightbulb mr-1"></i></h4> -->
+					<input class="toggle" id="darkmode" type="checkbox" (click)="darkMode()" [checked]="true">
+					<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>

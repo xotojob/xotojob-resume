@@ -1,0 +1,29 @@
+{
+  "letter": {
+    "username": "gregcousin126",
+    "email": "gregcousin126@gmail.com",
+    "initials": "GC",
+    "title": "gc_letter_eng",
+    "letterName": "gc_letter_eng",
+    "role": "Web Developer",
+    "applicant": "Gregoire Cousin",
+    "company": "APPLE",
+    "phone": {
+      "prefix": "+33",
+      "number": "625859351"
+    },
+    "urls": {
+      "website": "xotopio.com",
+      "facebook": "www.facebook.com/gregcousin126",
+      "twitter": "twitter.com/gregcousin126",
+      "github": "github.com/gregcousin126",
+      "linkedin": "linkedin.com/gregcousin126"
+    },
+    "letterGreeting": "Madam, Sir,",
+    "candidature": "Application for the Web Developer Position",
+    "letterText": "I am writing to express my interest in the position of Web Developer at your company. My background as a Web Developer and my education in Computer Science has allowed me to attain a strong foundation of technical skills. In addition to my Web Development skills, I also possess a great eye for design, which I believe separates me from the rest of the competition.\n\nI worked for three months at a company called IMAIOS (France) on developing an interactive website used worldwide by educational facilities. Students and professionals use the application to learn about health statistics, anatomical research, and 3D scanning imaging. This enabled me to improve my understanding of C++, Ruby, Java, JSON, Python, Typescript, and the Angular and Vuejs frameworks. I worked as a Full Stack Web Developer at OnePoint in Nantes from 2020 to 2021 on an energy transition support service program created by the Agency for Environment and Energy Management and financed by the French government. On the Atlassian platform, I was able to collaborate with our team using an agile methodology. My major task at Onepoint was to implement Uis for their Design System using Angular and help develop their backend architecture. This opportunity enhanced my knowledge in using industry-standard libraries and languages such as Typescript, Spring Boot, Docker, JAVA, NgRx, Jest, OWASP to name a few.\n\nConsider the following highlights of my qualifications:\n\n• I completed a Bachelor’s degree in Recording Engineering at Full Sail University in Orlando, Florida, USA, and gained experience working for several international recording studios as an audio engineer.\n\n• I worked in a highly competitive sales environment at Apple and ran reparations on IOS and OSX devices.\n\n• I completed my Bachelor’s degree in Software Engineering at Maynooth university, Celbridge, Ireland and gained experience in software development like, software testing, software design and mobile development.\n\n• Then pursuing a Master's degree in computer science in Dublin, Ireland. I have always been passionate about technology in all of its forms.\n\nI am searching for an innovative company and am confident I can be a great addition to your team. My ultimate goal is to assist companies in remaining optimized and linked in the digital race. I am enthusiastic about using efficient, user-friendly technology to change the world. My customer service background, technical abilities, work ethic, and dynamic cross-cultural, professional experiences will enable me to blend in while helping your company's mission.\n\n I look forward to discussing the position, and my qualifications, in further detail. Thank you for your time and consideration.",
+    "lastProjectText": "Here is the link for my latest project :",
+	"lastProjectLink": "https://xotopio.com",
+    "letterGoodbye": "Sincerely,"
+  }
+}

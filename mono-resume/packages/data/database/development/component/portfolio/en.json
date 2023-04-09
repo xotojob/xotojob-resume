@@ -1,0 +1,44 @@
+{
+  "portfolio": {
+	  "sectionset": {
+		  "hire": {
+      "button": {
+        "title": "Hire Me"
+      }
+    },
+    "freelanceProfile": {
+      "button": {
+        "title": "Checkout Freelancing Profiles"
+      }
+    }
+	  },
+    
+  "title": "Portfolio",
+  "subtitle": "Welcome to my online portfolio. I have more than 3 years of experience in building websites. Below are just a few of my projects. I'm taking on freelance work at the moment. Do you need help building your web app?",
+  "card": [{
+      "title": "IMAIOS",
+      "subtitle": "The Atlas of anatomy and medical imaging, e-learning training for health professionals",
+      "img": "assets/images/development/clients/imaios/imaios-logo.png",
+      "value": "Full Time",
+      "date": "Published 1 year ago",
+      "type": "frontend",
+      "button": {
+        "title": "View",
+        "link": "https://www.imaios.com/en"
+      }
+    },
+    {
+      "title": "OnePoint",
+      "subtitle": "An energy renovation support service program carried by ADEME with the help of the french government",
+      "img": "assets/images/development/clients/ademe/ademe-logo.png",
+      "value": "Full Time",
+      "date": "Published 1 weeks ago",
+      "type": "webapp",
+      "button": {
+        "title": "View",
+        "link": "https://www.ademe.fr/sare-service-daccompagnement-a-renovation-energetique"
+      }
+    }
+  ]
+}
+}

@@ -1,0 +1,65 @@
+<header class="header text-center">
+	<div class="force-overflow">
+		<h1 class="other-name pt-lg-4 mb-0"><a routerLink="/home" routerLinkActive="active">{{resumeData?.contact.name}}</a></h1>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<button id="mobile-menu-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div id="navigation" class="collapse navbar-collapse flex-column" (click)="onNavClicked()">
+				<div class="profile-section pt-3 pt-lg-0">
+					<img class="profile-image mb-3 rounded-circle mx-auto" src="{{resumeData?.imgAvatar}}" alt="image">
+					<div class="bio-title mb-3">{{headerData?.status.greeting}}</div>
+					<ul class="social-list list-inline py-2 mx-auto">
+						<li class="list-inline-item" *ngFor="let title of resumeData?.links">
+							<a :href="{{title.link}}"><i :class="fab fa-{{title.value}} fa-fw"></i></a>
+						</li>
+					</ul>
+					<hr>
+				</div>
+				<ul class="navbar-nav flex-column text-center">
+					<li class="nav-item" *ngFor="let route of routes">
+						<!-- *ngIf="(route === RouteEnum.SERVICES && selectedModalData?.isCompany[0] === 'Yes')" -->
+						<a class="nav-link text-capitalize" routerLink="{{route}}" routerLinkActive="active"><i :class="fas fa-{{seHeadertIcon(route)}} fa-fw mr-2"></i>{{route}}</a>
+					</li>
+					<li class="nav-item " [class.active]="showMorePages">
+						<a class="nav-item nav-more" (click)="togglePageList()" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-cogs fa-fw mr-2"></i>
+							{{headerData?.morePages.button.title}}
+							<!-- <div class="material-icons" *ngIf="!showMorePages">
+								arrow_drop_down
+							</div>
+							<div class="material-icons" *ngIf="showMorePages">
+								arrow_drop_up
+							</div> -->
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<span class="sr-only">{{headerData?.currentPage.button.title}}</span>
+						</div>
+					</li>
+				</ul>
+				<div *ngIf="showMorePages">
+					<a class="btn btn-primary my-2" routerLink="/{{RouteEnum.CONTACT}}"><i class="fas fa-heart mr-2"></i>{{headerData?.tags.hire}}</a>
+					<!-- <select class="form-control-lang" #selectedLang (change)="switchLang(selectedLang.value)">
+						<option *ngFor="let language of translate.getLangs()" [value]="language" [selected]="language === translate.currentLang">
+							{{ language }}
+						</option>
+					</select> -->
+				</div>
+				<div class="dark-mode-toggle text-center w-100" >
+					<hr class="mb-4">
+					<h4 *ngIf="mode" class="toggle-name mb-3 "><i class="fas fa-moon mr-1"></i>{{headerData?.themeMode.dark}}</h4>
+					<h4 *ngIf="!mode" class="toggle-name mb-3 "><i class="fas fa-lightbulb mr-1"></i>{{headerData?.themeMode.light}}</h4>
+					<input class="toggle"  id="darkmode" type="checkbox" (click)="darkMode()" [checked]="true">
+					<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+				</div>
+				<span class="form-inline">
+					<!-- 					
+			<div ngbDropdown class="d-inline-block">
+				<button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+				<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+					<button (click)="changeAction($event)" ngbDropdownItem>Action - 1</button>
+				</div>
+			</div> -->
+				</span>
+			</div>
+		</nav>
+	</div>
+</header>

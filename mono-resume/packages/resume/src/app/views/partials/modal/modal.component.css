@@ -1,0 +1,22 @@
+.modal-section{
+	align-items: center;
+	display: flex;
+	margin-top: 2em;
+	place-content: center;
+	height: 100%;
+}
+
+
+.modal-body {
+    position: relative;
+    height: 25em;
+    align-self: center;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+
+
+/* .modal-content{
+	background: rgb(253, 253, 253);
+} */

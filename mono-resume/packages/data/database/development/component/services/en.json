@@ -1,0 +1,29 @@
+{
+  "services": {
+    "title": "Services Pricing",
+    "subtitle": "I'm currently taking on freelance web development work. ",
+    "currentStatus": "You are welcome to contact me for a custom quote for your project. I also offer development service packages with fixed pricing.",
+    "faq": {
+      "title": "FAQs",
+      "subtitle": "You can use this section to address any queries.",
+      "dataset": [
+        {"value": "0", "title": "Can you reduce your product price?", "description": "Yes, it depends on the package selected."},
+        {"value": "1", "title": "Is the delivery time exactly mentioned on your gig?", "description": "Well, the delivery time will be less then mentioned 🥳."},
+        {"value": "2", "title": "Will you do modification after completing the project?", "description": "Yes, even after completing the project I will do changes according to the requirement and plan of your choice."},
+        {"value": "3", "title": "Can you do modification on an already developed website?", "description": "Yes, I dont mind doing modifications on already developed sites."},
+        {"value": "4", "title": "Will you build my site on Wordpress?", "description": "No, I will design your website on custom code which will be easy to understand and can be modifiable by other developers."},
+        {"value": "5", "title": "Will I be able to change your design?", "description": "Yes, it will be easy to change for other developers."}
+      ]
+    },
+    "plan": {
+      "title": "Service Packages",
+      "packages": {"price": {"title": "Package Price"}, "feature": {"title": "Feature", "subtitle": "Two extra features after project has been submitted"}, "responsive": {"title": "Responsive"}, "source": {"title": "Source File"}, "revisions": {"title": "Revisions"}, "delivery": {"title": "Delivery Time"}, "description": {"title": "Details"}},
+      "plans": [
+        {"title": "basic", "price": "$50", "description": "Simple 3 to 4 section Page Website with fully responsivness.", "feature": false, "details": "", "responsive": false, "source": true, "delivery": "1 days", "revisions": 1, "button": {"title": "Book Now", "link": "https://www.fiverr.com/gregcousin126"}},
+        {"title": "standard", "price": "$350+", "description": "Complex pages of a website with UX design if wanted.", "feature": false, "details": "", "responsive": true, "source": true, "delivery": "2 days", "revisions": 2, "button": {"title": "Book Now", "link": "https://www.fiverr.com/gregcousin126"}},
+        {"title": "premium", "price": "$750+", "description": "Fully responsive website with industry standard architecture", "feature": true, "details": "", "responsive": true, "source": true, "delivery": "5 days", "revisions": 4, "button": {"title": "Get A Quote", "link": "https://www.fiverr.com/gregcousin126"}}
+      ]
+    },
+    "freelance": {"title": "Freelancing Profiles", "subtitle": "Visit my freelancing profiles to order a custom service", "links": [{"title": "Fiverr", "link": "https://www.fiverr.com/gregcousin126", "img": "assets/images/development/logos/fiverr-logo.png", "button": {"title": "Visit Profile"}}, {"title": "Freelancer", "link": "https://www.freelancer.pk/u/gregcousin126", "img": "assets/images/development/logos/freelancer-logo.png", "button": {"title": "Visit Profile"}}]}
+  }
+}

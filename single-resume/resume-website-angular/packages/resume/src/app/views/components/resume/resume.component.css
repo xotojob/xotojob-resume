@@ -1,0 +1,7 @@
+.resume-list{display:flex;flex-flow:column;padding:0;list-style:inside cjk-earthly-branch;flex-flow:wrap}
+p{margin:.8rem 0}
+.tag-name{font-size:8pt;text-transform:uppercase;margin:.5rem 1rem .5rem 0rem;padding:.5rem;border:1px solid #fff;border-radius:2px;transition:all .3s ease-in-out;cursor:pointer}
+.tag-name:hover{background-color:#000;color:#fff;transform:scale(1.05)}
+.list-skills{display:flex;flex-flow:wrap;list-style:inside cambodian;place-content:flex-start;flex-flow:wrap;padding:0}
+.read-more{transition:all .3s ease-in-out}
+.item-company{opacity:.8;font-size:10pt;display:inline}

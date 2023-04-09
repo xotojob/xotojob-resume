@@ -1,0 +1,14 @@
+[v-cloak] {
+  visibility: hidden
+}
+
+:root {
+  --main-color: #2abafd;
+  --headings-font: 'Poppins', sans-serif;
+  --primary-font: 'Titillium Web';
+  --main-lighter: #2aa9fd;
+  --x: 120px;
+  --y: 120px;
+  --cSize: 7px;
+  --cSizeSmall: 7px
+}

@@ -1,0 +1,242 @@
+2,5 ans d'expérience
+INGENIEUR Fullstack JEE / JS
+
+# OBJECTIF
+
+Franco-Américain souhaitant travailler en France. Actuellement à la recherche d’un emploi dans l'informatique qui me permettra d'utiliser et développer mes compétences pour assurer un haut niveau d'efficacité et de productivité. Je vous propose ma candidature en tant que Web Developer.
+
+# PROFILE 
+
+Diplômé en 2012 d'une formation en ingénierie du son et ayant travailler par la suite pour plusieurs studios d'enregistrement mondialement connus, je me suis tourné naturellement vers l'informatique et ai obtenu mon diplôme d'une maîtrise en informatique en 2019. Je travaille actuellement en tant que Web Developer.
+
+Ma passion pour la technologie m'a ensuite amené à travailler pour Apple. Cela m'a permis d'approfondir mes compétences en programmation. Je perçois cette dernière comme une combinaison très enrichissante entre les connaissances techniques, la logique et la créativité. La diversité de la conception et de la programmation ne connait à mon sens pas de limite, et cela correspond parfaitement à ma nature dynamique et curieuse. La technologie a le fort potentiel de pouvoir «rassembler les gens » et de stimuler le progrès à un rythme plus rapide et plus efficace que jamais.
+
+# STACK TECHNIQUE
+
+### Langages
+Javascript, TypeScript 4, Java 11/17, Python, HTML 5, CSS 3, SCSS
+
+### Environnement Javascript
+VueJS 2/3, Angular 2+/10/11/12/13, React, RXJS, Apache, NGRX, NodeJS, Ionic, ExpressJS, JQuery 
+
+### Environnement Java
+Spring Boot 2, Hibernate, EJS, Websockets, SOAP, REST
+
+### Base de données
+MySQL, PostgreSQL, MariaDB, GraphQL, Redis, Firebase
+
+### Tests
+Jest, Junit, TestNG, Mockito, Emma, Karma, Jasmine, Mocha, Cypress
+
+### Forge logicielle
+Visual Studio, Neovim, JetBrains, Jira, Sketch, Adobe Suite, DBeaver
+
+### Architecture
+Monolith, Micro-frontends, Micro-services
+
+### Bundlers et Package Manager
+Webpack, Snowpack, Vite, NX, Gradle, Maven, NPM, Yarn
+
+### DevOps
+Gitlab CI, Github Action, Jenkins, Docker, AWS
+
+### Méthodologie:
+Scrum, BDD, Cycle en V
+
+### Systèmes d'exploitation 
+Linux Ubuntu, Debian, Windows, MacOS
+
+# FORMATIONS
+
+HDIP · DÉVELOPPEMENT DE LOGICIELS (BAC+4)
+@MAYNOOTH UNIVERSITY · CELBRIDGE, IRLANDE · 2018
+(Introduction technique, méthodologique et organisationnelle au développement logiciel)
+
+- Object-Oriented Programming 
+- Web Information Processing
+- Software Testing
+- Mobile Development
+- Database
+- Software Projects
+- Computer Systems
+- User Experience & Interface 
+- Structured Programming
+
+MSC · COMPUTER SCIENCE (BAC+5)
+@UNIVERSITY COLLEGE DUBLIN · DUBLIN, IRLANDE · 2019
+(Employé une base solide pour analyser les problèmes et fournir des solutions pratiques)
+
+- Algorithm Data Structures
+- Cloud Computing
+- Mobile App Dev Cocoa Touch
+- Contemporary Development
+- Security System
+- Ruby
+- Big Data Programming 
+- Information Security
+- Python Data Programming 
+- Distributed Systems
+- Recommender Systems
+- Software Design
+
+@SNCF - Nantes 09/2021 à aujourd'hui
+Rôle : Ingénieur Développeur Fullstack JEE / Angular/React/VueJS
+Projet : Développement et gestion de diverses applications permettant la détection du flux des transports en communs
+Méthodologie : Cycle en V, Equipe de 7 personnes
+Technologie : Angular 13, Typescript, Java 11, Spring Boot 2, VueJS, React, Gradle, Postgre, Webpack, Ice-Scrum, SCSS
+	•	Création de modules React/Vue/Angular pour des Micro-frontends
+	•	Etude d'augmentation de version Angular 7 à 13 suivi par sa refonte
+	•	Développement de système de comparaison
+	•	Création d'un batch système (CSV)
+	•	Création de tests unitaires avec JUnit
+	•	Implémentation d'un design système BEM/IT
+
+@ADEME - Nantes 08/2020 à 06/2021
+Rôle : Ingénieur Développeur Fullstack JEE / Angular
+Projet : Développement d'un programme de service d'appui à la transition énergétique adopté par l'ADEME et financé par le gouvernement français.
+Méthodologie : Agile Scrum, sprint de 4 semaines. Equipe de de 5 personnes 
+Technologie : Angular 10/11, Java JEE, Spring Boot 2, NGRX, TypeScript, Docker, Jest, Owasp, Atlas, Jira, Cypress
+	•	Participation à l'architecture logicielle
+	•	Développement du Front-end avec Angular 10/11
+	•	Développement du Back-end avec Spring Boot 2
+	•	Création d'un batch system (CSV)
+	•	Création de tests unitaires avec Jest et end to end avec Cypress
+	•	Optimisation des performances de l'application (Lazy Loading, traitement des requêtes, CSS)
+
+@XOTOPIO - Nantes 09/2019 à 08/2020 puis 05/2021 à aujourd'hui
+Rôle : Ingénieur Développeur Fullstack VueJS / TypeScript 
+Projet : Freelance sur le projet Xotosphère : fusion des réseaux sociaux et du secteur commercial pour soutenir les artisans locaux
+Méthodologie : Agile Scrum, sprint de 2 semaines. Equipe de de 3 personnes (Équipe d'ingénieurs et d'artistes 3D). Equipe de 3 développeurs dans un contexte international (France, Italie et Inde)
+Technologie : Vue3, Typescript, SSH, Gitlab-Runners, Dockers, Lerna, Submodules, GraphQL, Owasp, NGRX, Digital Ocean VM, Mongo, Atlas, Jira, Discord
+	•	Mise en place d'une architecture monorepo avec Lerna
+	•	Conception d'une maquette sur Sketch et Illustrator
+	•	Développement du front en Vue 3 et back end en NodeJS
+	•	Création d'une API Gateway pour intercepter et traiter les données
+	•	Optimisation de requêtes avec GraphQL 
+	•	Mise en place de l'industrialisation via Gitlab CI
+	•	Technologies de compression d'image 3D
+	•	Utilisation de Git submodules
+	•	Création de micro-services Back
+	•	Déploiement Bleu/Vert
+	•	Test Unitaire + Test intégration
+	•	Code Review
+
+@IMAIOS - Montpellier 06/2019 à 09/2019
+Rôle : Stage Ingénieur Développeur Fullstack JS
+Projet :  @Imaios est une entreprise innovante dans le domaine de l'imagerie médicale et du e-learning.
+Méthodologie : Cycle en V. Equipe de 7 personnes (50 personnes à l'international) 
+Technologie : Angular2+, NodeJS, EJSTypescript, Docker, NGRX, Jest, Owasp, Runscope, Ghost Inspector, Google Lighthouse
+	•	Création de nouveaux écrans, composants graphiques dans le GUI
+	•	Développement des systèmes d'optimisation en utilisant des websockets via Python
+	•	Création d'un module qui intègre Runscope, Ghost Inspector et Google Lighthouse pour produire des rapports détaillés.
+	•	Création de modules de test pour faciliter le traitement du déploiement du pipeline AWS
+	•	Support à la migration de données, à la conception et aux applications de flux multimédia
+
+# PROJETS PERSONNELS 
+
+Rôle : Ingénieur Développeur Fullstack Javascript/Typescript
+Projet 1 : CV-GEN : un outil qui génère des CV personnalisés.
+Durée : 5 mois.
+Technologie : Vue2, NodeJS, NPM, Puppeteer, MongoDB, Gitlab CI, HTML, SCSS
+	•	Conception d'une maquette avec des cartes 3D (SCSS)
+	•	Modélisation de la BDD en Mongo
+	•	Développement du front en Vue2 
+	•	Développement du back end en NodeJS 
+	•	Génération de données web scraping en utilisant Puppeteer
+	•	Test Unitaire + Test intégration 
+	•	Mise en place de l'industrialisation via Gitlab CI 
+	•	Code Review
+
+Rôle : Ingénieur Développeur Fullstack Javascript/Typescript
+Projet 2 : Xotopolo : Création d'un site e-commerce de vêtements, accessoires…
+Durée : 6 mois
+Technologie : NodeJS, EJS, Websockets, Unit Testing
+	•	Développement du front en EJS
+	•	Développement du back end en NodeJS 
+	•	Développement de Webservice Rest 
+	•	Test Unitaire + Test intégration 
+
+Rôle : Ingénieur Développeur Fullstack Javascript/Typescript
+Projet 3 : Site web personnel arborant un thème néon regroupant mes projets, mon expérience professionnelle et mes qualifications. 
+Technologie : NodeJS, Handlebars, Javascript, JQuery, Digital Ocean, Waypoints, Lazyloading
+	•	Animation optimisée en utilisant des notions de buffer et throttling
+	•	Développement du front-end en EJS et Handlebars
+	•	Développement du back-end en NodeJS
+	•	Test Unitaire + Test intégration 
+	•	Mise en place de l'industrialisation via Gitlab CI 
+	•	Revue de code
+
+Rôle : Ingénieur Développeur Fullstack Javascript/Typescript
+Projet 4 : Le Bon Coin Quick Glance - Aperçu rapide via une gallery du site Le Bon Coin 
+Durée : 6 mois
+Technologie : Inquirer, Webpack, NodeJS, NPM, Middlewares, Logs, Json
+	•	Développement d'une API pour extraire des informations du site Le Bon Coin
+	•	Génération de données via des fichiers JSON
+
+Rôle : Ingénieur Développeur Fullstack Javascript/Typescript
+Projet 5 : Pythongraph - Développement d'une application qui collecte des ensembles de données à partir d'une API Web, prétraite et analyse les données collectées
+Durée : 8 mois
+Technologie : Graphs, Jupyter, MD, Python 
+	•	Implémentation via Jupyter
+	•	Création d'API qui collecte des données à partir d'une ou de plusieurs API à l'aide de Python
+
+# LANGUAGES
+
+> JAVA
+Expérience des applications Web d'ingénierie à l'aide de plusieurs structures web Java (Struts, Spring Boot).
+
+> WEB DEVELOPMENT
+Haut niveau d'expérience sur les technologies de développement web, la conception web, les architectures d'applications (MVC), la conception d'applications web évolutives et tolérantes aux erreurs, et le déploiement et l'hébergement de sites Web sur les serveurs Linux.
+
+> PHP
+Bonne maitrise du language PHP acquise de maniere autodicacte et utilisées sur IMAIOS Web UI dans un contexte professionel.
+
+> NODE.JS
+Haut niveau d’expérience sur l'écriture d'applications Node en tant que sites Web autonomes et Electron Apps.
+
+> JAVASCRIPT
+Compétence en JavaScript sur les interfaces front-end et back- end, le DOM, et la connaissance de l'environnement et des fonctions d'exécution JavaScript.
+
+> RESTFUL API DESIGN
+Expérience intermédiaire en conception et en développement RESTful API pour les applications et services Web.
+
+> SOFTWARE TESTING
+Bonne connaissance des meilleures pratiques de test, du développement piloté par test, et du développement comportemental en utilisant Jest, Runscope, Ghost Inspector, JUnit, TestNG et Mocha.
+
+> FRAMEWORKS
+Expérience intermédiaire en conception et développement d'applications Web avec Vue, React et Angular. Data cv utilise beaucoup Vue.js.
+
+> PYTHON
+Compétence intermédiaire sur Python, ses concepts, ses meilleures usages, ses avantages et ses lacunes. Connaissance approfondie des libs disponibles et du PIP.
+
+> AWS
+Expérience en EC2, services et pipelines API Gateway. Expérience de conversion des solutions logicielles existantes en Amazon Machine Images.
+
+> C/C++
+Une expérience autodidacte sur les structures de données, le script d’unité (Unity Scripting) et le développement de bas niveau. Expérience intermédiaire sur C++ et sur de nombreuses concepts linguistiques.
+
+> DOCKER
+Compétences intermédiaires sur Docker, Docker Compose, avec une expérience de conteneurisation des applications existantes, et la connaissance des avantages et des lacunes des conteneurs d'application, et des architectures de micro-service.
+
+> GIT
+Expérience en utilisation de CLI Git, GitHub et GitLab pour collaborer avec une équipe et contrôler les versions logicielles.
+POSTGRES, MYSQL & MONGODB
+> Connaissance intermédiaire de la syntaxe SQL, des dialogues et fonctionnalités. Bonne expérience sur PostgreSQL et MongoDB.
+
+> UX & UI DESIGN
+Très bonne maitrise motivation et une bonne intuition qui permettent de fournir la meilleure expérience d’utilisation au niveau des clients.
+
+> ADOBE SUITE
+Haute maitrise du développement de conceptions marketing (logos, brochures, bulletins, infographies, présentations et publicités)
+
+> CODE REVIEW
+Expérience refactoring de la base de code héritée des applications Web internes à haut volume qui améliore considérablement la maintenabilité du code et réduit le temps de déploiement
+
+> AGILE
+Haut niveau d’expérience d'évaluation des exigences du projet à l'aide des principes Agile et Scrum liés au service en ligne à haut volume
+
+> RUBY RAILS
+Compétences intermédiaires dans la construction de systèmes. Expérience avec Ruby Rails dans plusieurs modules a UCD. Création de projets : un lecteur audio iTunes
+
+> BILINGUE
+Bilingue en français et en anglais ayant vécu au Colorado et a Seattle aux États-Unis, Dublin en Irlande et Paris en France

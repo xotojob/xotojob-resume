@@ -1,0 +1,53 @@
+<!-- CTA SECTION -->
+
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading mb-4">{{contactData?.title}}</h2>
+		<div class="intro">
+			<!-- <p> {{contactData?.cta.title}}</p> -->
+			<p>{{contactData?.cta.subtitle}}</p>
+	
+		</div>
+	</div>
+</section>
+
+<!--  ME-SECTION -->
+
+<section class="contactme-section px-3 pt-5">
+	<div class="container single-col-max-width">
+		<h4 class="text-center mb-4" id="contacts_section">{{contactData?.me.title}}</h4>
+				<ul class="text-center list-inline mb-0">
+				<li class="list-inline-item mb-3" *ngFor="let title of contactData?.cta.links">
+					<a  class="twitter" :href="{{title.link}}"><i class="fab fa-{{title.value}} fa-fw fa-lg"></i></a>
+				</li>
+			</ul>
+		<!-- <div class="text-center mb-4">{{contactData?.me.subtitle}}</div> -->
+		
+		<table class="table table-bordered">
+			<tbody>
+				<tr class="pricing-price-row " *ngFor="let title of resumeData?.links">
+					<td class="pricing-3-data text-center"><span class="price-number">{{title.value.toUpperCase()}}</span></td>
+					<td class="pricing-3-data text-center"><span class="price-number">{{title.link}}</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</section>
+
+<!-- FORM-SECTION -->
+
+<section class="contact-section px-3 py-5 p-md-5">
+	<div class="container">
+		<app-contact-form></app-contact-form>
+	</div>
+</section>
+
+<!-- PICING-SECTION -->
+
+<div id="demo" *ngIf="selectedModalData?.isCompany[0] === 'No'">
+	<section class="pricing-section py-5">
+		<div class="container single-col-max-width">
+			<app-contact-pricing></app-contact-pricing>
+		</div>
+	</section>
+</div>

@@ -1,0 +1,23 @@
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+name: Resume Project CI 
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          script: cd /docker/website-resume && sudo chmod +x deploy.sh && /docker/website-resume/deploy.sh

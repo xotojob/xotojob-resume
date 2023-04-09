@@ -1,0 +1,33 @@
+@media all and (max-width:320px) and (min-height:320px) and (hover:hover) {
+  .word {
+    display: none
+  }
+
+  .info {
+    display: none
+  }
+}
+
+@media (max-width:480px) and (min-width:0px) {
+  #typewriter {
+    display: none;
+    opacity: 0
+  }
+
+  .hide {
+    display: none;
+    opacity: 0
+  }
+}
+
+@media only screen and (max-device-width:480px) {
+  #typewriter {
+    display: none;
+    opacity: 0
+  }
+
+  .hide {
+    display: none;
+    opacity: 0
+  }
+}

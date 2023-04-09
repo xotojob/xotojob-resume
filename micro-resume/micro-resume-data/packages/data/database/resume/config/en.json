@@ -1,0 +1,73 @@
+{
+  "config": {
+	"version": "2.3.0",
+	"objectiveIsDefined": true,
+	"profileIsDefined": false,
+	"primaryEducations": 3,
+	"primaryProjects": 5,
+	"primarySkills": 11,
+	"secondarySkills": 12,
+	"primaryExperiances": 3,
+    "contact": {
+      "intro": { "img": "assets/img/profile/profile-sm.png", "title": "Diplômé en 2012 a l’université de Full Sail aux Etats Unis, j’ai par la suite travaillé pour plusieurs studios d'enregistrement mondialement connus à Los Angeles, puis ai eu la chance de travailler chez Apple pendant deux années. Plus récemment, j’ai souhaité renforcer mes compétences en acquérant un master en informatique à l’université UCD de Dublin. S’inscrire dans une logique de progrès permanent est essentiel pour moi. Grâce à une telle expérience, je suis à même de m’intégrer facilement dans une équipe créative, multidisciplinaire, orientée vers des objectifs à court et moyen terme" },
+      "resumeName": "gc_resume_eng",
+      "title": "gc_resume_eng",
+      "email": "gregcousin126@gmail.com",
+      "phone": "+33625859351",
+      "initials": "GC",
+      "applicant": "gregoire cousin",
+      "role": "Web Developer",
+      "company": "APPLE",
+      "scroll": ["apps", "games", "motion", "web!"],
+      "urls": {
+        "website": "xotopio.com",
+        "facebook": "www.facebook.com/gregcousin126",
+        "twitter": "twitter.com/gregcousin126",
+        "github": "github.com/gregcousin126",
+        "linkedin": "linkedin.com/gregcousin126"
+      },
+      "imgAvatar": "assets/img/profile/profile.png",
+      "links": [{
+          "value": "twitter",
+          "link": "https://twitter.com/gregcousin126"
+        },
+        {
+          "value": "linkedin",
+          "link": "https://www.linkedin.com/in/gregcousin126/"
+        },
+        {
+          "value": "github",
+          "link": "https://github.com/gregcousin126"
+        },
+        {
+          "value": "stack-overflow",
+          "link": "https://stackoverflow.com/users/8848159/gregoire-cousin"
+        },
+        {
+          "value": "codepen",
+          "link": "https://codepen.io/gregcousin126"
+        },
+        {
+          "value": "skype",
+          "link": "live:gregcousin126"
+        },
+        {
+          "value": "whatsapp",
+          "link": "+33625859351"
+        },
+        {
+          "value": "email",
+          "link": "gregcousin126@gmail.com"
+        },
+        {
+          "value": "phone",
+          "link": "+33625859351"
+        },
+        {
+          "value": "web",
+          "link": "gregcousin.com"
+        }
+      ]
+    }
+  }
+}

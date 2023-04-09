@@ -1,0 +1,10 @@
+:root {
+  --main-color: #2abafda0;
+  --headings-font: 'Poppins', sans-serif;
+  --primary-font: 'Titillium Web', serif
+}
+
+
+a {
+  display: flex
+}

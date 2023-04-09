@@ -1,0 +1,26 @@
+<!-- cta-section -->
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading ">{{portfolioData?.title}} </h2>
+		<div class="intro">
+			<p class="px-5 py-2">{{portfolioData?.subtitle}}</p>
+			<a class="btn btn-primary btn mr-2 mb-3" routerLink="/{{RouteEnum.CONTACT}}" ><i class="fas fa-money-bill-alt mr-2"></i>{{portfolioData?.sectionset.hire.button.title}}</a>
+			<!-- <a class="btn btn-secondary btn mr-2 mb-3" routerLink="/{{RouteEnum.SERVICES}}"><i class="fas fa-smile mr-2"></i>{{portfolioData?.sectionset.freelanceProfile.button.title}}</a> -->
+		</div>
+	</div>
+</section>
+<section class="projects-list px-3 py-5 p-md-5">
+	<div class="container">
+		<div class="text-center">
+			<ul id="filters" class="filters mb-5 mx-auto pl-0">
+				<li class="type text-uppercase mb-3 mb-lg-0" [class.active]="currentTab == 'all'" data-filter="*" (click)="onChangeTab('all')">All</li>
+				<li class="type text-uppercase mb-3 mb-lg-0" [class.active]="currentTab == 'webapp'" data-filter=".webapp" (click)="onChangeTab('webapp')">Webapp</li>
+				<li class="type text-uppercase mb-3 mb-lg-0" [class.active]="currentTab == 'frontend'" data-filter=".frontend" (click)="onChangeTab('frontend')">Frontend</li>
+				<li class="type text-uppercase mb-3 mb-lg-0" [class.active]="currentTab == 'backend'" data-filter=".backend" (click)="onChangeTab('backend')">Backend</li>
+				<li class="type text-uppercase mb-3 mb-lg-0" [class.active]="currentTab == 'fullstack'" data-filter=".fullstack" (click)="onChangeTab('fullstack')">Fullstack</li>
+			</ul>
+		</div>
+			<app-portfolio-project-card [portfoliosList]="portfolioList" [currentTab]="currentTab"></app-portfolio-project-card>
+		<!-- </div> -->
+	</div>
+</section>

@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  letter:
+    container_name: letter
+    build:
+      context: ./packages/letter
+    ports:
+      - '4000:4000'
+    environment:
+      - NODE_ENV=production
+    env_file: 
+      - .env
+

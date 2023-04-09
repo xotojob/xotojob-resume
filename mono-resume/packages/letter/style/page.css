@@ -1,0 +1,261 @@
+.page>* {
+  transition-duration: 2s;
+  transition-property: opacity;
+  opacity: 0
+}
+
+.page {
+  width: 8.5in;
+  height: 11in;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+  background-color: #fff;
+  margin-top: 20px;
+  overflow: hidden
+}
+
+.page.loaded>* {
+  opacity: 1
+}
+
+.page:first-child {
+  margin-top: 0
+}
+
+.page-footer {
+  justify-content: space-around;
+  padding-top: 8px;
+  position: absolute;
+  bottom: 13.5px;
+  left: 0;
+  background-color: #fff
+}
+
+
+.sub-section {
+  width: 465px;
+  font-size: .5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Titillium Web'
+}
+
+
+.sub-header {
+  font-size: 1.4em;
+  text-align: right
+}
+
+.heading-cover-letter {
+  background-color: rgba(255, 255, 255, 0);
+  top: -548px;
+  height: 516px;
+  width: 1371px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.heading-cover-letter .heading-job-title {
+  background-color: rgba(255, 255, 255, 0);
+  top: 187px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 368px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'Titillium Web';
+  font-size: 60px;
+  color: rgba(49, 49, 49, 1);
+  text-align: justify;
+  line-height: 72px
+}
+
+.heading-cover-letter .heading-title {
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: Poppins;
+  font-size: 150px;
+  color: rgba(39, 42, 51, 1);
+  text-align: left;
+  letter-spacing: -5.43px;
+  line-height: 276px
+}
+
+.heading-start {
+  background-color: rgba(255, 255, 255, 0);
+  top: -30px;
+  letter-spacing: -.5px;
+  height: auto;
+  font-family: HelveticaNeue, Helvetica, Arial, serif;
+  font-size: 49px;
+  width: 30em;
+  font-weight: 600;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.heading-candidature {
+  background-color: rgba(255, 255, 255, 0);
+  top: 323px;
+  height: auto;
+  font-style: italic;
+  font-family: AvenirNext-Medium, Helvetica, Arial, serif;
+  font-size: 36px;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2550px;
+  height: 471px;
+  width: 632px;
+  position: absolute;
+  margin: 0;
+  left: -64px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.footer .footer-job-title {
+  background-color: rgba(255, 255, 255, 0);
+  top: 380px;
+  height: auto;
+  width: 342px;
+  position: absolute;
+  margin: 0;
+  left: 70px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: .87;
+  font-family: HelveticaNeue, Helvetica, Arial, serif;
+  font-size: 30px;
+  color: rgba(50, 54, 67, 1);
+  text-align: left;
+  line-height: 45px
+}
+
+.footer .footer-username {
+  background-color: rgba(255, 255, 255, 0);
+  top: 328px;
+  height: auto;
+  width: 313px;
+  position: absolute;
+  margin: 0;
+  left: 70px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: .87;
+  font-family: HelveticaNeue, Helvetica, Arial, serif;
+  font-size: 35px;
+  color: rgba(39, 42, 51, 1);
+  text-align: left;
+  line-height: 50px
+}
+
+.footer .footer-ending {
+  background-color: rgba(255, 255, 255, 0);
+  top: 22px;
+  opacity: .9;
+  height: auto;
+  width: 184px;
+  font-family: 'Titillium Web', serif;
+  position: absolute;
+  margin: 0;
+  left: 69px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-size: 35px;
+  color: rgba(39, 42, 51, 1);
+  text-align: left;
+  line-height: 50px
+}
+
+.footer .footer-signature {
+  background-color: rgba(255, 255, 255, 0);
+  top: 126px;
+  height: 129px;
+  width: 561px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+
+
+.main-text {
+  background-color: rgba(255, 255, 255, 0);
+  top: 678px;
+  position: absolute;
+  margin: 0;
+  left: 848px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.main-text .text {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 1471px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: .95;
+  font-family: 'Titillium Web', serif;
+  font-size: 37px;
+  color: rgba(50, 54, 67, 1);
+  text-align: left;
+  white-space: break-spaces;
+  line-height: 57px;
+  text-justify: distribute
+}
+
+
+
+/* 
+
+.icon-wrap{margin-top:-1px}
+.fab{margin-top:4px}
+ */
+
+
+/* 
+
+.icon-wrap{margin-top:-1px}
+.fab{margin-top:4px}
+
+ */

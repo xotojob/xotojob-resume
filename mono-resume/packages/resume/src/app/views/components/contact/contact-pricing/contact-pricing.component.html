@@ -1,0 +1,25 @@
+<h4 class="text-center mb-4" id="freelancing_profiles" *ngIf="selectedModalData?.resume == 'development'">{{contactData?.pricing.title}}</h4>
+<div class="text-center mb-5" *ngIf="selectedModalData?.resume == 'development'">{{contactData?.pricing.subtitle}}</div>
+<!-- PRICING-TABLE -->
+<table class="table table-bordered" *ngIf="selectedModalData?.resume == 'development'"  >
+	<thead>
+		<tr class="border-0">
+			<th *ngFor="let item of contactData?.pricing.links" scope="col" class="pricing-package-title pricing-1-data text-center">{{item.title}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="pricing-price-row">
+			<td class="pricing-2-data" *ngFor="let item of contactData?.pricing.links"><img height="150" width="" :src="{{item.img}}" alt="" class="img-fluid"></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr class="pricing-cta-row">
+			<td class="pricing-1-data text-center" *ngFor="let link of contactData?.pricing.links"><a class="btn btn-primary" :href="{{link.link}}">
+				<i class="fas fa-paper-plane mr-2"></i> 
+
+					
+					{{contactData?.form.sectionset.visit.button.title}}</a>
+			</td>
+		</tr>
+	</tfoot>
+</table>

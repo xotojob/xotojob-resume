@@ -1,0 +1,150 @@
+<section class="cta-section theme-bg-light py-5">
+	<div class="container text-center single-col-max-width">
+		<h2 class="heading ">{{serviceData?.title}}</h2>
+		<div class="intro">
+			<p class="px-5 pt-2 ">{{serviceData?.subtitle}}</p>
+			<p class="px-5 mb-0">{{serviceData?.currentStatus}}</p>
+		</div>
+	</div>
+</section>
+<section class="pricing-section py-5">
+	<div class="container single-col-max-width">
+		<h3 class="text-center mb-4">{{serviceData?.plan.title}}</h3>
+		<div id="pricing-tabs" class="pricing-tabs d-block d-md-none mb-3" *ngFor="let plan of serviceData?.plan.plans">
+			<a routerLink="/{{RouteEnum.SERVICES}}#" class="pricing-tab active mb-2" data->{{plan.title}}</a>
+		</div>
+		<table id="pricing-table" class="pricing-table table-bordered">
+			<thead>
+				<tr class="border-0">
+					<th scope="col" class="theme-bg-light"></th>
+					<th scope="col" class="pricing-package-title text-capitalize" *ngFor="let plan of serviceData?.plan.plans">{{plan.title}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="pricing-price-row">
+					<th scope="row">{{serviceData?.plan.packages.price.title}}</th>
+					<td *ngFor="let plan of serviceData?.plan.plans"><span class="price-number">{{plan.price}}</span>
+					</td>
+				</tr>
+				<tr class="pricing-desc-row">
+					<th scope="row">{{serviceData?.plan.packages.description.title}}</th>
+					<td class="text-center" *ngFor="let plan of serviceData?.plan.plans"><span class="pricing-package-desc">{{plan.description}}</span></td>
+				</tr>
+				<tr class="pricing-feature-row">
+					<th class="pricing-feature-row-name " scope="row">{{serviceData?.plan.packages.feature.title}}<br>
+						<small class="feature-desc font-weight-normal text-muted">{{serviceData?.plan.packages.feature.subtitle}}</small>
+					</th>
+					<td *ngFor="let plan of serviceData?.plan.plans">
+						<i class="{{getPlanServiceCalculation(plan.feature)}} text-primary"></i>
+						<span *ngIf="!plan.feature" class="text-muted">–</span>
+					</td>
+				</tr>
+				<tr class="pricing-feature-row">
+					<th class="pricing-feature-row-name " scope="row">{{serviceData?.plan.packages.responsive.title}}</th>
+					<td *ngFor="let plan of serviceData?.plan.plans">
+						<i class="{{getPlanServiceCalculation(plan.responsive)}} text-primary"></i>
+						<span *ngIf="!plan.responsive" class="text-muted">–</span>
+					</td>
+				</tr>
+				<tr class="pricing-feature-row">
+					<th class="pricing-feature-row-name " scope="row">{{serviceData?.plan.packages.source.title}}</th>
+					<td *ngFor="let plan of serviceData?.plan.plans">
+						<i class="{{getPlanServiceCalculation(plan.source)}} text-primary"></i>
+						<span *ngIf="!plan.source" class="text-muted">–</span>
+					</td>
+				</tr>
+				<tr class="pricing-feature-row">
+					<th class="pricing-feature-row-name " scope="row">{{serviceData?.plan.packages.revisions.title}}</th>
+					<td *ngFor="let plan of serviceData?.plan.plans"><span class="text-muted">{{plan.revisions}}</span>
+					</td>
+				</tr>
+				<tr class="pricing-feature-row">
+					<th class="pricing-feature-row-name " scope="row">{{serviceData?.plan.packages.delivery.title}}</th>
+					<td *ngFor="let plan of serviceData?.plan.plans">{{plan.delivery}}</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr class="pricing-cta-row">
+					<td></td>
+					<td *ngFor="let plan of serviceData?.plan.plans"><a class="btn btn-primary" routerLink="/{{RouteEnum.CONTACT}}">{{plan.button.title}}</a></td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</section>
+
+<!-- PRICING-SECTION -->
+
+<section class="faq-section">
+	<div class="container single-col-max-width">
+		<h3 class="text-center mb-4">{{serviceData?.faq.title}}</h3>
+		<div class="text-center mb-5">{{serviceData?.faq.subtitle}}
+		</div>
+
+		<!-- <ng-container *ngFor="let faq of serviceData?.faq.dataset">
+			<mat-accordion  class="faq-accordion mx-auto">
+				<mat-expansion-panel  class="card-header border-0 p-3 theme-bg-light">
+				  <mat-expansion-panel-header>
+					<mat-panel-title>
+						<h4 class="card-title mb-0"><a  class="card-toggle collapsed">{{faq.title}}</a> </h4>
+					</mat-panel-title>
+				  </mat-expansion-panel-header>
+				  
+				  <div class="card-collapse">
+					<div class="card-body pt-0 theme-bg-light">
+						{{faq.description}}
+					</div>
+				</div>
+				</mat-expansion-panel>
+			  </mat-accordion>
+			  <br>
+		</ng-container> -->
+
+		<div id="faq-accordion" class="faq-accordion mx-auto">
+			<div class="card border-0 mb-3" *ngFor="let faq of serviceData?.faq.dataset">
+				<div class="card-header border-0 p-3 theme-bg-light">
+					<h4 class="card-title mb-0" (click)="toggleclicked(faq)"><a data-parent="#faq-accordion" data-toggle="collapse" class="card-toggle collapsed" :href="#faq{{faq.value}}" aria-expanded="false">
+							<span class="material-icons" *ngIf="!faq.clicked" style="float: right;">
+								expand_more
+							</span>
+							<span class="material-icons" *ngIf="faq.clicked" style="float: right;">
+								expand_less
+							</span>
+							{{faq.title}}</a></h4>
+				</div>
+				<div class="card-collapse collapse" id="faq{{faq.value}}">
+					<div class="card-body pt-0 theme-bg-light">
+						{{faq.description}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- FAQ-SECTION -->
+
+<section class="pricing-section py-5">
+	<div class="container single-col-max-width">
+		<h3 class="text-center mb-4" id="freelancing_profiles">{{serviceData?.freelance.title}}</h3>
+		<div class="text-center mb-5">{{serviceData?.freelance.subtitle}}</div>
+		<table class="table table-bordered">
+			<thead>
+				<tr class="border-0">
+					<th *ngFor="let link of serviceData?.freelance.links" scope="col" class="pricing-packag text-center">
+						{{link.title}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="pricing-price-row">
+					<td *ngFor="let link of serviceData?.freelance.links"><img height="150" width="" :src="{{link.img}}" alt="" class="img-fluid"></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr class="pricing-cta-row">
+					<td class="text-center" *ngFor="let link of serviceData?.freelance.links"><a class="btn btn-primary" href="{{link.link}}"><i class="fas fa-paper-plane mr-2"></i> {{link.button.title}}</a></td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</section>

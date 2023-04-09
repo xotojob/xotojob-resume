@@ -1,0 +1,54 @@
+version: '3.3'
+
+services:
+  resume:
+    container_name: resume
+    build:
+      context: ./packages/resume
+    ports:
+      - '5000:5000'
+    environment:
+      - NODE_ENV=production
+    depends_on: 
+      - 'page'
+      - 'data'
+      - 'letter'
+    env_file: 
+      - .env
+    
+  page:
+    container_name: page
+    build:
+      context: ./packages/page
+    ports:
+      - '4040:4040'
+    environment:
+      - NODE_ENV=production
+    depends_on: 
+      - 'data'
+    env_file: 
+      - .env
+    
+  letter:
+    container_name: letter
+    build:
+      context: ./packages/letter
+    ports:
+      - '4000:4000'
+    environment:
+      - NODE_ENV=production
+    depends_on: 
+      - 'data'
+    env_file: 
+      - .env
+
+  data:
+    container_name: data
+    build:
+      context: ./packages/data
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+    env_file: 
+      - .env

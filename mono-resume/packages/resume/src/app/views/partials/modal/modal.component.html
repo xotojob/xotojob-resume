@@ -1,0 +1,66 @@
+<section class="modal-section" *ngIf="!openApp">
+	<button class="btn btn-outline-primary" (click)="open(mymodal)">Gregoire Cousin CV</button>
+	<ng-template #mymodal let-modal>
+		<!-- <div class="modal-content"> -->
+		<div class="modal-header">
+			<!-- <h4 class="modal-title" id="modal-basic-title">Bootstrap Modal</h4> -->
+			<!-- <button type="button" class="close" aria-label="Close" (click)=modalData?.dismiss('Cross click')">
+				<span aria-hidden="true">×</span>
+			</button> -->
+			<!-- <h6 class="text-center modal-header-title heading">{{modalData?.title}}</h6> -->
+		</div>
+		<div class="modal-body">
+			<!-- <div ngbDropdown class="d-inline-block">
+				<button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+				<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+					<button (click)="changeAction($event)" ngbDropdownItem>development</button>
+				</div>
+			</div> -->
+			<p class="text-center mb-3">{{modalData?.company.button.title}}</p>
+			<form [formGroup]="modalForm" class='col-lg-8 mx-lg-auto'>
+				<div class="form-row">
+					<div class="form-group col-12">
+						<select (change)="checkrefff($event)" class="custom-select" formControlName="isCompany">
+							<option *ngFor="let click of modalData?.company.button.value" value="{{click}}">{{click}}
+							</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-row">
+					<!-- <div class="form-group col-md-6">
+						<label class="sr-only" for="name">{{modalData?.name}}</label>
+						<input type="text" formControlName="name" class="form-control" placeholder="{{modalData?.name}}" minlength="2" required="" aria-required="true">
+						<span style="color: red;" *ngIf="modalForm.controls.name.touched && modalForm.controls.name.invalid">*Name is required</span>
+					</div>
+					 -->
+					 
+					 
+					<div class="form-group col-12" *ngIf="isCompany">
+						<label class="sr-only" for="company">{{modalData?.company.title}}</label>
+						<input type="text" formControlName="company" class="form-control" placeholder="{{modalData?.company.title}}" minlength="2" aria-required="true">
+						<span style="color: red;" *ngIf="isCompany && modalForm.controls.company.touched && modalForm.controls.company.invalid">*Company is required</span>
+					</div>
+				</div>
+				<p class="text-center mb-3">{{modalData?.resume.title}}</p>
+				<div class="form-row">
+					<div class="form-group col-12">
+						<select class="custom-select" formControlName="resume">
+							<option *ngFor="let resume of modalData?.resume.dataset" value="{{resume}}">{{resume}}
+							</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-12">
+						<button type="button" (click)="modalInformation(modal); " class="btn btn-block btn-primary py-2">{{contactData?.form.sectionset.message.button.title}}</button>
+						<span *ngIf="isFormSubmitted" style="color: green;">Thanks for contacting us, we will reach you really soon.</span>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- <div class="modal-footer">
+			<button type="button" class="btn btn-outline-dark" (click)=modalData?.close('Save click')">Ok</button>
+		</div> -->
+		<!-- </div> -->
+	</ng-template>
+</section>

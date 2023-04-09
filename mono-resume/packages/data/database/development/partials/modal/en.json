@@ -1,0 +1,7 @@
+{
+	"modal": {
+		"title": "Welcome to My Space 🔥 A few Questions before we begin?",
+		"company": {"title": "Company","button": {"title" : "Are you a Company?", "value" : ["Yes", "No"] }},
+		"resume": {"title": "Which resume would you like to experience?", "dataset": ["development", "resume"]}
+	}
+}
